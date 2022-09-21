@@ -1,0 +1,8 @@
+<iostream>
+using namespace std;
+int main()
+{
+    int número; float flotante;
+    cout<< "tecle el número<<endl";
+    cin>>flotante
+}
