@@ -1,7 +1,7 @@
 <h1> UP210439_CPP</h1>
 <p align="center">
 <a href="https://upa.edu.mx/">
-<img src="/imagenes/images.jpeg" width="400">
+<img src="/imagenes/images.jpeg" width="250">
 <a/>
 <p/>
 <h2>Programming Repository</h2>
