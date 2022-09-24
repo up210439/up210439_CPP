@@ -1,4 +1,4 @@
-<h1> _*Welcome to my repository*_
+<h1> Welcome to my repository
 <h2> UP210439_CPP</h1>
 <p align="center">
 <a href="https://upa.edu.mx/">
