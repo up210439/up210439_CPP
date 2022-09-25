@@ -6,7 +6,6 @@
 <p>
 <a href="https://github.com/UPA-ISC/ProgramacionCpp"> ISCUPA Repository</a>
 </p>
-<p align="center">
 <a href="https://upa.edu.mx/"> University Page</a>
 <a/>
 <p/>
@@ -19,6 +18,7 @@
 <li>U4 Files and arrays</li>
 <p/>
 <h2>With gitHub you can work on Windows and Linux
+<img src_"/imagenes/liwi.jpg" width="600">
 <br>
 <p>
 <h3>Contact
