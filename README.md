@@ -17,9 +17,11 @@
 <li>U3 Functions</li>
 <li>U4 Files and arrays</li>
 <p/>
-<h2>With gitHub you can work on Windows and Linux
+<h2>With GitHub you can work on Windows and Linux
 <p align="center">
 <img src="/imagenes/liwi.jpg" width="600">
+<p align="center">
+<h4> Effective and surprising way of working
 <br>
 <p>
 <h3>Contact
