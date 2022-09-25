@@ -18,7 +18,8 @@
 <li>U4 Files and arrays</li>
 <p/>
 <h2>With gitHub you can work on Windows and Linux
-<img src_"/imagenes/liwi.jpg" width="600">
+<p align="center">
+<img src="/imagenes/liwi.jpg" width="600">
 <br>
 <p>
 <h3>Contact
