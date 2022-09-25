@@ -4,7 +4,7 @@
 <img src="/imagenes/logop.png" width="350">
 <p align="center">
 <a href="https://upa.edu.mx/">
-<img src="/imagenes/UPA.png" width="200">
+<img src="/imagenes/UPA.png" width="500">
 <a/>
 <p/>
 <h3>Programming Repository</h2>
