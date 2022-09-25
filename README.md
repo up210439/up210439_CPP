@@ -1,7 +1,7 @@
 <h1> Welcome to my repository
 <h2> UP210439_CPP</h1>
 <p align="center">
-<img src="/Documentos/logop.png" width="350">
+<img src="/imagenes/logop.png" width="350">
 <p align="center">
 <a href="https://upa.edu.mx/">
 <img src="/imagenes/images.jpeg" width="200">
