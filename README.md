@@ -28,8 +28,9 @@
 <div>
 <br>
 <p>
-
+<div align= "justify">
 <h3>Contact
+<div>
 <p>
 <div align="center">
 <a href="https://www.facebook.com/carmen.viramontes.71/about_details">
