@@ -20,11 +20,12 @@
 <li>U4 Files and arrays</li>
 <p/>
 <h2>With GitHub you can work on Windows and Linux
-<p align="center">
+<p <div align= "justify">
 <img src="/imagenes/liwi.jpg" width="600">
 <h4>Effective and surprising way of working
 <br>
 <p>
+<div align= "center">
 <h3>Contact
 <p align="center">
 <a href="https://www.facebook.com/carmen.viramontes.71/about_details">
