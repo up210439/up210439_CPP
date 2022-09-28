@@ -1,52 +1,61 @@
-/*En una determinada empresa, sus empleados son evaluados al final de cada año. los puntos 
-que pueden obtener en la evaluación comienza en 0.0 y pueden ir aumentando, traducciéndo en 
-mejores beneficios. Los puntos que pueden conseguir los empleados pueden ser 0.0, 0.4, 0.6 
-o más, pero no valores intermemdios entre las cifras mencionadas. A continuación se muestra 
-una tabla con los niveles correspondientes a cada puntuación. La cantidad de dinero conseguida
-en cada nivel es de $2,400 multiplicada por la puntualidad de nivel.
+/*
+ CABECERA DE PROGRAMA
+Date: 27/09/2022
+Author:UP210439
+Description: Renta 
+Email: up210439@alumnos.upa.edu.mx
+Last modification: ##
 
-Nivel         puntuación 
-inalcanzable  0.0
-Aceptable     0.4
-Meritorio     0.6 o más
+In a given company, its employees are evaluated at the end of each year. points
+that they can obtain in the evaluation starts at 0.0 and can increase, translating into
+Better benefits. The points that employees can get can be 0.0, 0.4, 0.6
+or more, but not intermediate values ​​between the mentioned figures. A is shown below
+a table with the levels corresponding to each score. The amount of money earned
+at each level is $2,400 multiplied by the level's punctuality.
 
-Escribir un programa que lea la puntución del usuario e indique su nivel de rendimiento, así 
-como la cantidad de dinero que recibirá el usuario.
-*¡Muchas gracias por preferirnos! 
-Esperamos poder servirte nuevamente.*/ 
+Level         punctuation
+unattainable    0.0
+Acceptable      0.4
+meritorious     6 or more
 
-//Libreria para el manejo de entradas y salidas.
+Write a program that reads the user's score and indicates their performance level, as well
+as the amount of money the user will receive.
+*¡Thank you very much for choosing us!
+We look forward to serving you again.
+*/ 
+
+//Library for managing inputs and outputs
 #include<iostream>
 
-//Uso del namespace para evitar el std::
+//Using the namespace to avoid the std::
 using namespace std;
 
-//Función principal de tipo entero.
+//Main function of integer type
 int main(){
 
-//Declaración de variable 
+//Variable Declaration
 double c;
 
-//Ingresar el numero de calificacion 
-cout<<"¿Cual es tu calificacion?: " <<endl;
+//Enter the rating number
+cout<<"What is your qualification?: " <<endl;
 cin>>c;
-//Ejecucion del problema 
+//Execution of the problem
 if ((c == 0)||(c == 0.4)||(c >= 0.6 && c <= 1)){
     if(c == 0){
-        cout<<"inaceptable: " <<endl;
+        cout<<"unattainable: " <<endl;
     }
     else if(c == 0.4){
-        cout<<"aceptable: " <<endl;
+        cout<<"Acceptable: " <<endl;
     }
     else if(c >= 0.6 && c <= 1){
-        cout<<"meritorio. "<<endl;
+        cout<<"meritorious: "<<endl;
     }
-    cout<<"Tu bono es:  " <<2400*c;
+    cout<<"Your bonus is:  " <<2400*c;
     }
 
-    //Si no se cumple ninguno de las demas calificasiones es: 
+    //If none of the other qualifications are met, it is: 
     else{
-        cout<<"invalido: " <<endl;
+        cout<<"invalid: " <<endl;
     }
     return 0;
 }
