@@ -28,7 +28,7 @@
 <div>
 <br>
 <p>
-< div align= "justify">
+
 <h3>Contact
 <p>
 <div align="center">
