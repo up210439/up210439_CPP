@@ -22,7 +22,10 @@
 <h2>With GitHub you can work on Windows and Linux
 <p <div align= "center">
 <img src="/imagenes/liwi.jpg" width="600">
+<div>
+<div align = center>
 <h4>Effective and surprising way of working
+<div>
 <br>
 <p>
 < div align= "justify">
