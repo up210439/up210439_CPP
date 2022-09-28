@@ -15,65 +15,39 @@ como la cantidad de dinero que recibirá el usuario.
 *¡Muchas gracias por preferirnos! 
 Esperamos poder servirte nuevamente.*/ 
 
-//libreria para el manejo de entradas y salidas.
+//Libreria para el manejo de entradas y salidas.
 #include<iostream>
 
-//uso del namespace para evitar el std::
+//Uso del namespace para evitar el std::
 using namespace std;
 
 //Función principal de tipo entero.
 int main(){
 
-   /* //Declaracion de variables.
-    float puntuacion;
-    float dinero; //cantidad de dinero
-    float inalcanzable = 0.0;
-    float aceptable = 0.4;
-    float meritorio = ((puntuacion>=0.6)||(puntuacion<=1)); 
-
-    //  Calcular la puntuación si es inalcanzable, aceptable o meritorio.
-    cout<< "ingresa la puntuacion: " << endl;
-    cin>> puntuacion;
-
-    if(puntuacion == inalcanzable){
-        cout<<"Tu puntuacion es inalcanzable:" <<endl;
-
-    }
-    if(puntuacion == aceptable){
-        cout<<"Tu puntuacion es aceptable:" <<endl;
-
-    }
-    if(puntuacion == meritorio){
-        cout<<"Tu puntuacion es meritorio:" <<endl; 
-    }
-    
-    (dinero = puntuacion*2400);
-    cout<<"Tu dinero es: $"<< dinero;
-
-    else if ()
-    
-    
-    return 0; 
-}
-*/
+//Declaración de variable 
 double c;
-cout<<"cual es tu calificacion: ";
+
+//Ingresar el numero de calificacion 
+cout<<"¿Cual es tu calificacion?: " <<endl;
 cin>>c;
+//Ejecucion del problema 
 if ((c == 0)||(c == 0.4)||(c >= 0.6 && c <= 1)){
     if(c == 0){
-        cout<<"inaceptable";
+        cout<<"inaceptable: " <<endl;
     }
     else if(c == 0.4){
-        cout<<"aceptable";
+        cout<<"aceptable: " <<endl;
     }
     else if(c >= 0.6 && c <= 1){
-        cout<<"meritorio";
+        cout<<"meritorio. "<<endl;
     }
-    cout<<"tu bono es"<<2400*c;
+    cout<<"Tu bono es:  " <<2400*c;
     }
+
+    //Si no se cumple ninguno de las demas calificasiones es: 
     else{
-        cout<<"invalido";
+        cout<<"invalido: " <<endl;
     }
     return 0;
-    }
+}
     
