@@ -22,11 +22,11 @@
 <h2>With GitHub you can work on Windows and Linux
 <p 
 <img src="/imagenes/liwi.jpg" width="600">
-<div align= "justify">
+< align= "justify">
 <h4>Effective and surprising way of working
 <br>
 <p>
-<div align= "center">
+< align= "justify">
 <h3>Contact
 <p align="center">
 <a href="https://www.facebook.com/carmen.viramontes.71/about_details">
