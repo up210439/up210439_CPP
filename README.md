@@ -20,8 +20,9 @@
 <li>U4 Files and arrays</li>
 <p/>
 <h2>With GitHub you can work on Windows and Linux
-<p <div align= "justify">
+<p 
 <img src="/imagenes/liwi.jpg" width="600">
+<div align= "justify">
 <h4>Effective and surprising way of working
 <br>
 <p>
