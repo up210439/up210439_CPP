@@ -13,20 +13,19 @@
 <h1>Programming Repository</h1>
 <h2>Main Structure</h2>
 <ol>
- <div align= "justify">
+<div align= "justify">
 <li>U1 Programming introduction</li>
 <li>U2 Control structures and cycles</li>
 <li>U3 Functions</li>
 <li>U4 Files and arrays</li>
 <p/>
 <h2>With GitHub you can work on Windows and Linux
-<p 
+<p <div align= "center">
 <img src="/imagenes/liwi.jpg" width="600">
-< align= "justify">
 <h4>Effective and surprising way of working
 <br>
 <p>
-< align= "justify">
+< div align= "justify">
 <h3>Contact
 <p align="center">
 <a href="https://www.facebook.com/carmen.viramontes.71/about_details">
