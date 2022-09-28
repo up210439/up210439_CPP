@@ -13,6 +13,7 @@
 <h1>Programming Repository</h1>
 <h2>Main Structure</h2>
 <ol>
+ <div align= "justify">
 <li>U1 Programming introduction</li>
 <li>U2 Control structures and cycles</li>
 <li>U3 Functions</li>
