@@ -1,4 +1,5 @@
-<h1> Welcome to my repository
+<h1> div light="center" Welcome to my repository
+<div 
 <h2> UP210439_CPP</h2>
 <p align="center">
 <img src="/imagenes/logop.png" width="400">
