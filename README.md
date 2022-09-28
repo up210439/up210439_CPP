@@ -1,5 +1,6 @@
+<div align= "center">
 <h1>  Welcome to my repository
-<div ligth="center"
+<div>
 <h2> UP210439_CPP</h2>
 <p align="center">
 <img src="/imagenes/logop.png" width="400">
