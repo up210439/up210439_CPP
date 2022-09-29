@@ -1,6 +1,7 @@
 <h2>  <div align= "center"> Welcome to my repository</h2>
 <br>
-An amazing way to learn programming through C++. I would love to learn more about JAVASCRIPT.
+<h1>An amazing way to learn programming through C++. I would love to learn more about JAVASCRIPT.</h1>
+<div align=center>
 <h2>UP210439_CPP</h2>
 <div>
 <p align="center">
@@ -42,7 +43,7 @@ An amazing way to learn programming through C++. I would love to learn more abou
 <p>
 <div align= "justify">
 <br>
-Contact
+  <h2>Contact</h2>
 <div>
 <p>
 <div align="center">
