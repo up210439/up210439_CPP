@@ -10,6 +10,7 @@
 <img src="/imagenes/c++.webp" width="600">
 <br>  
 <h2>The programming tool will be visual studio code.</h2>
+<img src="/imagenes/code.jpg" width="600">
 <div>
 <p>
 <h2>I like to learn new things and you.
