@@ -1,11 +1,11 @@
-<h3>  <div align= "center"> Welcome to my repository
-<h1> An amazing way to learn programming through C++. I would love to learn more about JAVASCRIPT
+<h1>  <div align= "center"> Welcome to my repository
+ An amazing way to learn programming through C++. I would love to learn more about JAVASCRIPT
 <div>
-<h2> UP210439_CPP</h2>
+<h1> UP210439_CPP</h2>
 <p align="center">
 <img src="/imagenes/logop.png" width="400">
-<h1> I like to learn new things and you 
-<h1> In this repository you will observe my learning as a programmer
+ I like to learn new things and you 
+ In this repository you will observe my learning as a programmer
 <center>
 <br>
 <p>
@@ -15,7 +15,7 @@
 <a/>
 <p/>
 <h1>Programming Repository</h1>
-<h3>Main Structure</h2>
+<h2>Main Structure</h2>
 <ol>
 <div align= "justify">
 <li>U1 Programming introduction</li>
