@@ -8,14 +8,13 @@ An amazing way to learn programming through C++. I would love to learn more abou
 <p>
 I like to learn new things and you.
 In this repository you will observe my learning as a programmer
-< div align= "justify">
+<div align= "justify">
 <br>
 <p>
 <a href="https://github.com/UPA-ISC/ProgramacionCpp"> ISCUPA Repository</a>
 </p>
 <a href="https://upa.edu.mx/"> University Page</a>
 <a/>
-<div>
 <p/>
 <h1>Programming Repository</h1>
 <h2>Main Structure</h2>
