@@ -1,8 +1,8 @@
-<h1>  <div align= "center"> Welcome to my repository
-<p>
+<h1>  <div align= "center"> Welcome to my repository</h1>
+<br>
 An amazing way to learn programming through C++. I would love to learn more about JAVASCRIPT
 <div>
-<h1> UP210439_CPP</h1>
+<br>UP210439_CPP
 <p align="center">
 <img src="/imagenes/logop.png" width="400">
 <p>
@@ -18,7 +18,7 @@ In this repository you will observe my learning as a programmer
 <a/>
 <p/>
 <div align= center>
-<p>Programming Repository>
+  <h1>Programming Repository</h1>
 <div align= "justify">
 <p>Main Structure</p>
 <div>
