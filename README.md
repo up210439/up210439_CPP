@@ -17,8 +17,9 @@ In this repository you will observe my learning as a programmer
 <div>
 <a/>
 <p/>
+<div align= center>
 <h1>Programming Repository</h1>
-<div align= "center">
+<div align= "justify">
 <h1>Main Structure</h1>
 <div>
 <ol>
@@ -33,12 +34,14 @@ In this repository you will observe my learning as a programmer
 <img src="/imagenes/liwi.jpg" width="600">
 <div>
 <div align = center>
-<h1>Effective and surprising way of working
+<p>
+Effective and surprising way of working
 <div>
 <br>
 <p>
 <div align= "justify">
-<h1>Contact
+<p>
+Contact
 <div>
 <p>
 <div align="center">
