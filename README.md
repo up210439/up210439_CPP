@@ -1,8 +1,11 @@
 <h1>  <div align= "center"> Welcome to my repository
+<h3> An amazing way to learn programming through C++. I would love to learn more about JAVASCRIPT
 <div>
-<h2> UP210439_CPP</h2>
+<h3> UP210439_CPP</h2>
 <p align="center">
 <img src="/imagenes/logop.png" width="400">
+<h4> I like to learn new things and you 
+<h4> In this repository you will observe my learning as a programmer
 <br>
 <p>
 <a href="https://github.com/UPA-ISC/ProgramacionCpp"> ISCUPA Repository</a>
