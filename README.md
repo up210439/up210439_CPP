@@ -4,8 +4,10 @@
 <div align=center>
 <h1>UP210439_CPP</h1>
 <div>
+<img src="/imagenes/c++.jpg" width="600">
 <p align="center">
-<img src="/imagenes/logop.png" width="400">
+<img src="/imagenes/logop.webp" width="400">
+<h2>The programming tool will be visual studio code.</h2>
 <div>
 <p>
 <h2>I like to learn new things and you.
