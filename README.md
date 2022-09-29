@@ -37,10 +37,10 @@
 <li>U4 Files and arrays</li>
 <p/>
 <h2>Commands</h2>
-<h2>git status:know what changes you made.
-  <br>git Add.:preload to cloud.
-  <br>git commit -m "":change name.
-  <br>git push:upload updates to the cloud.</h2>
+Git status:know what changes you made.
+  <br>Git Add.:preload to cloud.
+  <br>Git commit -m "":change name.
+  <br>Git push:upload updates to the cloud.
 <h2>With GitHub you can work on Windows and Linux.</h2>
 <p> <div align= "center">
 <img src="/imagenes/liwi.jpg" width="600">
