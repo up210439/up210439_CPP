@@ -1,13 +1,14 @@
-<h1>  <div align= "center"> Welcome to my repository</h1>
+<h2>  <div align= "center"> Welcome to my repository</h2>
 <br>
-An amazing way to learn programming through C++. I would love to learn more about JAVASCRIPT
+An amazing way to learn programming through C++. I would love to learn more about JAVASCRIPT.
+<h2>UP210439_CPP</h2>
 <div>
-<br>UP210439_CPP
 <p align="center">
 <img src="/imagenes/logop.png" width="400">
+<div>
 <p>
-I like to learn new things and you.
-In this repository you will observe my learning as a programmer
+<h1>I like to learn new things and you.
+  In this repository you will observe my learning as a programmer.</h1>
 <div align= "justify">
 <br>
 <p>
@@ -29,13 +30,13 @@ In this repository you will observe my learning as a programmer
 <li>U3 Functions</li>
 <li>U4 Files and arrays</li>
 <p/>
-<br>With GitHub you can work on Windows and Linux
+  <h1>With GitHub you can work on Windows and Linux.</h1>
 <p> <div align= "center">
 <img src="/imagenes/liwi.jpg" width="600">
 <div>
 <div align = center>
 <br>
-Effective and surprising way of working
+  <h1>Effective and surprising way of working.</h1>
 <div>
 <br>
 <p>
