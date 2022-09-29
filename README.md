@@ -46,7 +46,6 @@ Git status: know what changes you made.
 <br>
 <div elign= "center">
 <img src="/imagenes/viExt.png" width="250">
-<div>
 <h2>With GitHub you can work on Windows and Linux.</h2>
 <p> <div align= "center">
 <img src="/imagenes/liwi.jpg" width="600">
