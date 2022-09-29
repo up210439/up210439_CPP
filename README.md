@@ -18,9 +18,9 @@ In this repository you will observe my learning as a programmer
 <a/>
 <p/>
 <div align= center>
-<h1>Programming Repository</h1>
+<p>Programming Repository>
 <div align= "justify">
-<h1>Main Structure</h1>
+<p>Main Structure</p>
 <div>
 <ol>
 <div align= "justify">
@@ -29,18 +29,18 @@ In this repository you will observe my learning as a programmer
 <li>U3 Functions</li>
 <li>U4 Files and arrays</li>
 <p/>
-<h1>With GitHub you can work on Windows and Linux
+<br>With GitHub you can work on Windows and Linux
 <p> <div align= "center">
 <img src="/imagenes/liwi.jpg" width="600">
 <div>
 <div align = center>
-<p>
+<br>
 Effective and surprising way of working
 <div>
 <br>
 <p>
 <div align= "justify">
-<p>
+<br>
 Contact
 <div>
 <p>
