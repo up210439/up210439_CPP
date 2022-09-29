@@ -2,7 +2,7 @@
 <p>
 An amazing way to learn programming through C++. I would love to learn more about JAVASCRIPT
 <div>
-<h1> UP210439_CPP</h2>
+<h1> UP210439_CPP</h1>
 <p align="center">
 <img src="/imagenes/logop.png" width="400">
 <p>
@@ -14,10 +14,13 @@ In this repository you will observe my learning as a programmer
 <a href="https://github.com/UPA-ISC/ProgramacionCpp"> ISCUPA Repository</a>
 </p>
 <a href="https://upa.edu.mx/"> University Page</a>
+<div>
 <a/>
 <p/>
 <h1>Programming Repository</h1>
-<h2>Main Structure</h2>
+<div align= "center">
+<h1>Main Structure</h1>
+<div>
 <ol>
 <div align= "justify">
 <li>U1 Programming introduction</li>
@@ -25,17 +28,17 @@ In this repository you will observe my learning as a programmer
 <li>U3 Functions</li>
 <li>U4 Files and arrays</li>
 <p/>
-<h2>With GitHub you can work on Windows and Linux
-<p <div align= "center">
+<h1>With GitHub you can work on Windows and Linux
+<p> <div align= "center">
 <img src="/imagenes/liwi.jpg" width="600">
 <div>
 <div align = center>
-<h4>Effective and surprising way of working
+<h1>Effective and surprising way of working
 <div>
 <br>
 <p>
 <div align= "justify">
-<h3>Contact
+<h1>Contact
 <div>
 <p>
 <div align="center">
