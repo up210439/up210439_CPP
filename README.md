@@ -42,7 +42,7 @@ Git status: know what changes you made.
   <br>Git push: upload updates to the cloud.
  <h2>What visual extensions do I use to program in C++?</h2>
 <br>In this IDE there are different types of extensions that people used to program in C++ in this case I upload my extensions you can use different extensions if you want others.
-<img src="/imagenes/visuale.png" width="600">
+<br><img src="/imagenes/viExt.png" width="600">
 <h2>With GitHub you can work on Windows and Linux.</h2>
 <p> <div align= "center">
 <img src="/imagenes/liwi.jpg" width="600">
