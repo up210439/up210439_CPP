@@ -11,7 +11,7 @@
 <a/>
 <p/>
 <h1>Programming Repository</h1>
-<h2>Main Structure</h2>
+<h3>Main Structure</h2>
 <ol>
 <div align= "justify">
 <li>U1 Programming introduction</li>
