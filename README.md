@@ -1,13 +1,14 @@
 <h1>  <div align= "center"> Welcome to my repository</h1>
-<br>
-<h2>An amazing way to learn programming through C++. I would love to learn more about JAVASCRIPT.</h2>
 <div align=center>
 <h1>UP210439_CPP</h1>
 <div>
-<img src="/imagenes/c++.webp" width="600">
-<br>  
 <div align="center">
 <img src="/imagenes/logop.png" width="400">
+<br>
+<h2>An amazing way to learn programming through C++. I would love to learn more about JAVASCRIPT.</h2>
+
+<img src="/imagenes/c++.webp" width="600">
+<br>  
 <h2>The programming tool will be visual studio code.</h2>
 <div>
 <p>
