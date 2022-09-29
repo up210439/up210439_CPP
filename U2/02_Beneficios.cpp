@@ -2,7 +2,7 @@
  CABECERA DE PROGRAMA
 Date: 27/09/2022
 Author:UP210439
-Description: Renta 
+Description: Beneficios
 Email: up210439@alumnos.upa.edu.mx
 Last modification: ##
 
