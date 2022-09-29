@@ -43,8 +43,7 @@ Git status: know what changes you made.
  <h2>What visual extensions do I use to program in C++?</h2>
 <br>In this IDE there are different types of extensions that people used to program in C++ in this case I upload my extensions you can use different extensions if you want others.
 <div elign= "center">
-<br><img src="/imagenes/viExt.png" width="250">
-<div>
+<br><img src="/imagenes/viExt.png" width="250"><div>
 <h2>With GitHub you can work on Windows and Linux.</h2>
 <p> <div align= "center">
 <img src="/imagenes/liwi.jpg" width="600">
