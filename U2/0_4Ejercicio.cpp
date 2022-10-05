@@ -5,8 +5,9 @@ Description: pizza
 Email: up210439@alumnos.upa.edu.mx
 Last modification: ##
 
-la pizzeria Bella Napoli ofrece pizzas vagetarianas y no vegetarianas a sus
-clientes. Los ingredientes para cada tipo de pizza aparecen a continuacón.
--ingredientes vegetarianos: pimiento y tofu.
--ingredientes no vegetarianos: peperoni, jamón y salmón
-escribir un programa que pregunte al usuario */
+The pizzeria Bella Napoli offers vegetarian and non-vegetarian pizzas to its
+customers. The ingredients for each type of pizza appear below.
+-vegetarian ingredients: pepper and tofu.
+-non-vegetarian ingredients: pepperoni, ham and salmon
+write a program that asks the user*/
+
