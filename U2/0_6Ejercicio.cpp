@@ -54,7 +54,7 @@ totalBills += price*productQuantity;
 
 } while (productQuantity > 0);
 
-cout << "The total bills is: " << totalBills <<endl;
+cout << "The total bills is: " << "$" << totalBills <<endl;
 
 return 0;
 
