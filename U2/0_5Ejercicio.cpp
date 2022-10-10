@@ -23,7 +23,7 @@ int main(){
     int higher = 0; 
     float temperature;
     float tempAcum =0;
-
+    
     do{
         cout << "Give me the temperature: ";
         cin >> temperature; 
