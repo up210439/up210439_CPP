@@ -37,7 +37,7 @@ int main(){
 
 do
 {
-    /* code */
+    
 cout << "Enter the quantity of product: " <<endl;
 cin >> productQuantity;
 
