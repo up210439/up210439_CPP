@@ -40,7 +40,7 @@ Git status: know what changes you made.
   <br>Git Add. : preload to cloud.
   <br>Git commit -m "" : change name.
   <br>Git push: upload updates to the cloud.
- <h2>What visual extensions do I use to program in C++?</h2>
+  <h2>What visual extensions do I use to program in C++?</h2>
 <br>In this IDE there are different types of extensions that people used to program in C++ in this case I upload my extensions you can use different extensions if you want others.
 <div>
 <br>
