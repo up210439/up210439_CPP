@@ -20,10 +20,10 @@ int main (){
     int pizza;
     int ingredientes;
 
-//----Request rental amount from the user----
+    //Request rental amount from the user
     cout << "Do you want a Vegetarian (Digit 1) or Non-Vegetarian (Digit 2) pizza)?" << endl;
     cin >> pizza;
-//-----Printing of the selected menu----
+    //Printing of the selected menu
     if (pizza == 1)
     {
         cout << "Vegetarian Ingredients: " << endl;
@@ -79,7 +79,7 @@ int main (){
     }
     else
     {
-        cout << "Invalid option";
+        cout << "Try again" << ":(" << endl;
     }
     
 

@@ -6,7 +6,7 @@ Email: up210439@alumnos.upa.edu.mx
 Last modification: ##
 */
 
-#include<iostream>
+#include <iostream>
 
 using namespace std;
 

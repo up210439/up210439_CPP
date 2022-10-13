@@ -1,3 +1,12 @@
+
+/*  CABECERA DE PROGRAMA
+Date: 29/09/2022
+Author:UP210439
+Description: simple 
+Email: up210439@alumnos.upa.edu.mx
+Last modification: ##
+*/
+
 //Librería para manejo de entradas y salidas
 #include <iostream> 
 //uso del namespace para evitar el std::
