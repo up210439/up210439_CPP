@@ -91,3 +91,9 @@ EXERCISE 1: Corresponding porcentage according to the amount of rent of the clie
 </ol>
  
  <br><br><br>                                                 
+
+   
+<h1 align="left"> 
+EXERCISE 2: Benefits: bonus assigned according to scores
+<h2> Code structure (C++)</h2>
+<div><h4>Input</h4></div>                                              
