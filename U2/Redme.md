@@ -85,7 +85,7 @@ EXERCISE 1: Corresponding porcentage according to the amount of rent of the clie
     <img src="up210439_CPP/../../capt/renta4.png">   
 <li>For an amount greater than or equal to $35,000 or less than $60,000
     <img src="up210439_CPP/../../capt/renta5.png">  
-<li>For amounts greater than or equal to $60,000<li>
+<li>For amounts greater than or equal to $60,000</li>
     <img src="up210439_CPP/../../capt/renta2.png">
                                                  
 </ol>
