@@ -227,7 +227,7 @@ EXERCISE 2: Benefits: bonus assigned according to scores.
  <br><br><br>
  
                                                    
-h1 align="center"> 
+<h1 align="center"> 
  EXERCISE 4: Pizza: (Sample of the menu according to the client's selection).
 <h2> Code Structure (C++)</h2>
 <div><h4>Input</h4></div>
@@ -337,6 +337,8 @@ h1 align="center">
  </ol>
  
  <br><br><br>
+    
+    --------------------------
 //Library for managing inputs and outputs
 #include <iostream>
 
