@@ -216,16 +216,12 @@ EXERCISE 2: Benefits: bonus assigned according to scores.
 <br><br>
 <h3> Results</h3>
 <ol type="A>
-<li>For amount less than $10,000
-    <img src="UP210163_CPP/../../imagenes/menor10.png">
-<li>For an amount greater than or equal to $10,000 or less than $20,000
-    <img src="UP210163_CPP/../../imagenes/menor20.png">
- <li>For an amount greater than or equal to $20,000 or less than $35,000
-    <img src="UP210163_CPP/../../imagenes/menor35.png">
- <li>For an amount greater than or equal to $35,000 or less than $60,000
-    <img src="UP210163_CPP/../../imagenes/menor60.png">
- <li>For amounts greater than or equal to $60,000
-    <img src="UP210163_CPP/../../imagenes/mayor60.png">
+<li>Age less than 4 = 0 (free).
+    <img src="up210439_CPP/../../capt/entrada1.png">
+<li>Age over 4 but under 18 = $5 pesos per ticket.
+    <img src="up210439_CPP/../../capt/entrada2.png">
+ <li>Age over 18 = $10 pesos the ticket.
+    <img src="up210439_CPP/../../capt/entrada3.png">
  </ol>
  
  <br><br><br>
