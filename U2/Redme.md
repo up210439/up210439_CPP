@@ -216,92 +216,127 @@ EXERCISE 2: Benefits: bonus assigned according to scores.
 <br><br>
 <h3> Results</h3>
 <ol type="A>
-<li>Age less than 4 = 0 (free).
+<li>Age less than 4 = 0 (free).</li>
     <img src="up210439_CPP/../../capt/entrada1.png">
-<li>Age over 4 but under 18 = $5 pesos per ticket.
+<li>Age over 4 but under 18 = $5 pesos per ticket.</li>
     <img src="up210439_CPP/../../capt/entrada2.png">
- <li>Age over 18 = $10 pesos the ticket.
+<li>Age over 18 = $10 pesos the ticket.</li>
     <img src="up210439_CPP/../../capt/entrada3.png">
- </ol>
+</ol>
  
  <br><br><br>
  
-#include<iostream>
+                                                   
+h1 align="center"> 
+ EXERCISE 4: Pizza: (Sample of the menu according to the client's selection).
+<h2> Code Structure (C++)</h2>
+<div><h4>Input</h4></div>
 
-using namespace std;
+```c++                                                   
+    #include<iostream>
 
-int main (){
-//----Declaration of variables----
-    int pizza;
-    int ingredientes;
+    using namespace std;
 
-    //Request rental amount from the user
-    cout << "Do you want a Vegetarian (Digit 1) or Non-Vegetarian (Digit 2) pizza)?" << endl;
-    cin >> pizza;
-    //Printing of the selected menu
-    if (pizza == 1)
-    {
-        cout << "Vegetarian Ingredients: " << endl;
-        cout << "2. Pepper" << endl;
-        cout << "3. Tofu" << endl;
-        cout << "Enter the number of the ingredient of your choice: " << endl;
-        cin >> ingredientes;
-        if (ingredientes == 2)
+    int main (){
+    //----Declaration of variables----
+        int pizza;
+        int ingredientes;
+
+        //Request rental amount from the user
+        cout << "Do you want a Vegetarian (Digit 1) or Non-Vegetarian (Digit 2) pizza)?" << endl;
+        cin >> pizza;
+```
+
+ <div><h4>Process & Output </h4></div>
+
+
+```c++                                                                                        
+        //Printing of the selected menu
+        if (pizza == 1)
         {
-            cout << "ORDEN:" << endl;
-            cout << "Vegetarian pizza" << endl;
-            cout << "Ingredients: " << endl;
-            cout << "Mozzarella cheese, tomato sauce and pepper" << endl;
-         
+            cout << "Vegetarian Ingredients: " << endl;
+            cout << "2. Pepper" << endl;
+            cout << "3. Tofu" << endl;
+            cout << "Enter the number of the ingredient of your choice: " << endl;
+            cin >> ingredientes;
+            if (ingredientes == 2)
+            {
+                cout << "ORDEN:" << endl;
+                cout << "Vegetarian pizza" << endl;
+                cout << "Ingredients: " << endl;
+                cout << "Mozzarella cheese, tomato sauce and pepper" << endl;
+
+            }
+            else
+            {      
+                cout << "ORDEN:" << endl;
+                cout << "Vegetarian pizza" << endl;
+                cout << "Ingredients: " << endl;
+                cout << "Mozzarella cheese, tomato sauce and tofu" << endl;
+            }
+        }
+        else if (pizza == 2)
+        {
+            cout << "Non Vegetarian Ingredients: " << endl;
+            cout << "4.Pepperoni" << endl;
+            cout << "5.Ham" << endl;
+            cout << "6.Salmon" << endl;
+            cout << "Enter the number of the ingredient of your choice: " << endl;
+            cin >> ingredientes;
+            if (ingredientes == 4)
+            {
+                cout << "ORDEN:" << endl;
+                cout << "Non Vegetarian Pizza" << endl;
+                cout << "Ingredients: " << endl;
+                cout << "Mozzarella cheese, Tomato sauce and Pepperoni" << endl;
+            }
+            else if (ingredientes == 5)
+            {
+                cout << "ORDEN:" << endl;
+                cout << "Non Vegetarian Pizza" << endl;
+                cout << "Ingredients: " << endl;
+                cout << "Mozzarella cheese, Tomato sauce and Ham" << endl;
+            }
+            else
+            {
+                cout << "ORDEN:" << endl;
+                cout << "Non Vegetarian Pizza" << endl;
+                cout << "Ingredients: " << endl;
+                cout << "Mozzarella cheese, Tomato sauce and salmon" << endl;
+            }
         }
         else
-        {      
-            cout << "ORDEN:" << endl;
-            cout << "Vegetarian pizza" << endl;
-            cout << "Ingredients: " << endl;
-            cout << "Mozzarella cheese, tomato sauce and tofu" << endl;
-        }
-    }
-    else if (pizza == 2)
-    {
-        cout << "Non Vegetarian Ingredients: " << endl;
-        cout << "4.Pepperoni" << endl;
-        cout << "5.Ham" << endl;
-        cout << "6.Salmon" << endl;
-        cout << "Enter the number of the ingredient of your choice: " << endl;
-        cin >> ingredientes;
-        if (ingredientes == 4)
         {
-            cout << "ORDEN:" << endl;
-            cout << "Non Vegetarian Pizza" << endl;
-            cout << "Ingredients: " << endl;
-            cout << "Mozzarella cheese, Tomato sauce and Pepperoni" << endl;
+            cout << "Try again" << ":(" << endl;
         }
-        else if (ingredientes == 5)
-        {
-            cout << "ORDEN:" << endl;
-            cout << "Non Vegetarian Pizza" << endl;
-            cout << "Ingredients: " << endl;
-            cout << "Mozzarella cheese, Tomato sauce and Ham" << endl;
-        }
-        else
-        {
-            cout << "ORDEN:" << endl;
-            cout << "Non Vegetarian Pizza" << endl;
-            cout << "Ingredients: " << endl;
-            cout << "Mozzarella cheese, Tomato sauce and salmon" << endl;
-        }
-    }
-    else
-    {
-        cout << "Try again" << ":(" << endl;
-    }
-    
-
-    return 0;  
-}
 
 
+        return 0;  
+    }
+```
+## Function->
+<p> This program is based on taking the client's order with the established options and at the end its complete order is printed to be seen by the user.</p>
+<ol>
+<li>The program asks the user what type of pizza he wants
+<li>With the previous information, the menu corresponding to this selection is displayed.
+<li>At the end, the user can view their complete order to check that it is correct.
+</ol>
+<br><br>
+<h3> Results</h3>
+<ol type="A>
+<li>Vegetarian pizza: peper(Mozzarella cheese, tomato sauce and tofu).
+    <img src="up210439_CPP/../../capt/pizza1.png">
+<li>Vegetarian pizza: tofu (Mozzarella cheese, tomato sauce and tofu).
+    <img src="up210439_CPP/../../capt/pizza2.png">
+ <li>Non-vegetarian pizza: pepperoni (Mozzarella cheese, Tomato sauce and Pepperoni).
+    <img src="up210439_CPP/../../capt/pizza3.png">
+ <li>Non-vegetarian pizza: Ham (Mozzarella cheese, Tomato sauce and Ham).
+    <img src="up210439_CPP/../../capt/pizza4.png">
+ <li>Non-vegetarian pizza: salmon (Mozzarella cheese, tomato sauce and salmon).
+    <img src="up210439_CPP/../../capt/pizza5.png">
+ </ol>
+ 
+ <br><br><br>
 //Library for managing inputs and outputs
 #include <iostream>
 
