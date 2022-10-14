@@ -160,40 +160,76 @@ EXERCISE 2: Benefits: bonus assigned according to scores.
  
  <br><br><br>
  
+<h1 align="center"> 
+ EXERCISE 3: Tickets: (Price corresponding to pay according to your age). 
+<h2> Code Structure (C++)</h2>
+<div><h4>Input</h4></div>
 
-//Library for managing inputs and outputs
-#include<iostream>
+```c++
+    //Library for managing inputs and outputs
+    #include<iostream>
 
-//Using the namespace to avoid the std::
-using namespace std;
+    //Using the namespace to avoid the std::
+    using namespace std;
 
-//Main function of integer type
-int main(){
+    //Main function of integer type
+    int main(){
 
- //Variable Declaration   
-    int age;
-    int ca;  //amount of money to pay
+     //Variable Declaration   
+        int age;
+        int ca;  //amount of money to pay
 
-    cout<<"What is your age?: " <<endl;
-    cin>>age;
+        cout<<"What is your age?: " <<endl;
+        cin>>age;
+    
+```
 
-    if( age <= 4 ){
-        int free = 0;
-        ca = free;  
-        
+ <div><h4>Process & Output </h4></div>
+
+
+```c++
+        if( age <= 4 ){
+            int free = 0;
+            ca = free;  
+
+        }
+        else if((age >=  4)&&(age <18)){
+            ca = 5;
+        }
+        else if((age >= 18)){
+            ca = 10;
+        }
+        cout<<"The amount to pay is: "<< "$" << (ca) << endl;
+
+        return 0; 
     }
-    else if((age >=  4)&&(age <18)){
-        ca = 5;
-    }
-    else if((age >= 18)){
-        ca = 10;
-    }
-    cout<<"The amount to pay is: "<< "$" << (ca) << endl;
+```
 
-    return 0; 
-}
-
-
+## Function->
+<p> This program works based on the age entered by the user, depending on their age a price will be assigned to their ticket</p>
+<ol>
+<li>The user enters his age
+<li>The program begins to assign the price that corresponds to it
+<li>The price to pay is printed on the screen
+<li>If you do not enter an age, it will be wrong    
+</ol>
+<br><br>
+<h3> Results</h3>
+<ol type="A>
+<li>For amount less than $10,000
+    <img src="UP210163_CPP/../../imagenes/menor10.png">
+<li>For an amount greater than or equal to $10,000 or less than $20,000
+    <img src="UP210163_CPP/../../imagenes/menor20.png">
+ <li>For an amount greater than or equal to $20,000 or less than $35,000
+    <img src="UP210163_CPP/../../imagenes/menor35.png">
+ <li>For an amount greater than or equal to $35,000 or less than $60,000
+    <img src="UP210163_CPP/../../imagenes/menor60.png">
+ <li>For amounts greater than or equal to $60,000
+    <img src="UP210163_CPP/../../imagenes/mayor60.png">
+ </ol>
+ 
+ <br><br><br>
+ 
 #include<iostream>
 
 using namespace std;
