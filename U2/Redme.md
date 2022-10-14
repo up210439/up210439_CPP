@@ -1,6 +1,6 @@
 
 <h1 align="center"> 
-EXERCISE 1: Corresponding tax according to the amount of rent of the client.
+EXERCISE 1: Corresponding porcentage according to the amount of rent of the client.
 </h1>
 <h2> Code Structure (C++)</h2>
 <div><h4>Input</h4></div>
@@ -65,7 +65,7 @@ EXERCISE 1: Corresponding tax according to the amount of rent of the client.
 ## Function ->
 <p> Show the user the corresponding porcentage to pay according to the total amount of rent </p>
 <ol>
-<li>The user enters the personal amount of rent
+<li>The user enters the personal amount of rent.
 <li>The calculations corresponding to the amount entered are performed as follows:
 <ol>
 <ol type="a">
@@ -89,43 +89,77 @@ EXERCISE 1: Corresponding tax according to the amount of rent of the client.
     <img src="up210439_CPP/../../capt/renta2.png">
 </ol>
  
- <br><br><br>
-//Library for managing inputs and outputs
-#include<iostream>
+<br><br><br>
+                                                 
+ 
+<h1 align="center"> 
+EXERCISE 2: Benefits: bonus assigned according to scores.
+<h2> Code Structure (C++)</h2>
+<div><h4>Input</h4></div>
 
-//Using the namespace to avoid the std::
-using namespace std;
+```c++                                                
+    //Library for managing inputs and outputs
+    #include<iostream>
 
-//Main function of integer type
-int main(){
+    //Using the namespace to avoid the std::
+    using namespace std;
 
-//Variable Declaration
-double c;
+    //Main function of integer type
+    int main(){
 
-//Enter the rating number
-cout<<"What is your qualification?: " <<endl;
-cin>>c;
-//Execution of the problem
-if ((c == 0)||(c == 0.4)||(c >= 0.6 && c <= 1)){
-    if(c == 0){
+    //Variable Declaration
+    double c;
+ ```
+
+ <div><h4>Process & Output </h4></div>
+
+
+```c++
+    //Enter the rating number
+    cout<<"What is your qualification?: " <<endl;
+    cin>>c;
+    //Execution of the problem
+    if ((c == 0)||(c == 0.4)||(c >= 0.6 && c <= 1)){
+        if(c == 0){
         cout<<"unattainable: " <<endl;
-    }
-    else if(c == 0.4){
-        cout<<"Acceptable: " <<endl;
-    }
-    else if(c >= 0.6 && c <= 1){
-        cout<<"meritorious: "<<endl;
-    }
-    cout<<"Your bonus is:  " <<2400*c;
-    }
+        }
+        else if(c == 0.4){
+            cout<<"Acceptable: " <<endl;
+        }
+        else if(c >= 0.6 && c <= 1){
+            cout<<"meritorious: "<<endl;
+        }
+        cout<<"Your bonus is:  " <<2400*c;
+        }
 
-    //If none of the other qualifications are met, it is: 
-    else{
-        cout<<"invalid: " <<endl;
+        //If none of the other qualifications are met, it is: 
+        else{
+            cout<<"invalid: " <<endl;
+        }
+        return 0;
     }
-    return 0;
-}
+```
+## Function->
+<p> This program consists of assigning employees their bonus corresponding to their performance score; the score must be [0.0, 0.4 or greater than 0.6], any other score outside the established ones will be rejected. The percentage equal to your performance score where 100% percent is $2400 and 0% is $0. </p>
+<ol>
+<li>User enters their score
+<li>If the user enters a value other than 0, 0.4 or a number greater than 0.6, the program will not advance and will throw a warning message
+<li>If the user enters a valid value, it prints the corresponding bond along with the amount to which it is creditor
+</ol>
+<br><br>
 
+<h3> Results</h3>
+<ol type="A>
+<li>For a score of 0.0
+    <img src="up210439_CPP/../../capt/benefi1.png">
+<li>For a score of 0.4
+    <img src="up210439_CPP/../../capt/benefi2.png">
+ <li>For a score of 0.6
+    <img src="up210439_CPP/../../capt/benefi3.png">
+  </ol>
+ 
+ <br><br><br>
+ 
 
 //Library for managing inputs and outputs
 #include<iostream>
