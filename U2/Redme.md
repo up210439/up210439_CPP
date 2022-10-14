@@ -1,99 +1,354 @@
 
-<h1 align="left"> 
-EXERCISE 1: Corresponding porcentage according to the amount of rent of the client
-<h2> Code structure (C++)</h2>
-<div><h4>Input</h4></div>
+//Library for managing inputs and outputs
+#include <iostream> 
 
-```c++
+//Using the namespace to avoid the std::
+using namespace std;
 
-    //Library for managing inputs and outputs
-    #include <iostream> 
-
-    //Using the namespace to avoid the std::
-    using namespace std;
-
-    //integer main function
-    int main(){
+//integer main function
+int main(){
     
-        //Declare variables
-        float percentage;
-        float rentaAnual;
+    //Declare variables
+    float percentage;
+    float rentaAnual;
+   
+    // Income variable
+    cout << " What is your annual income?: " << endl;
+    cin >> rentaAnual;
+    
 
-        // Income variable
-        cout << " What is your annual income?: " << endl;
-        cin >> rentaAnual;
-
- ```
- 
- <div><h4>Process & Output </h4></div>
-
-
-```c++
-
-        // Calculate the rent to obtain the percentage
-        if (rentaAnual < 10000)
-        {
-            percentage =.05;
-        }
-        else if((rentaAnual >= 10000) && (rentaAnual < 20000 ))
-        {
-            percentage= .15;
-        }
-        else if((rentaAnual >= 20000) && (rentaAnual < 35000))
-        {
-            percentage = .20;
-        }
-        else if((rentaAnual >= 35000) && (rentaAnual < 60000))
-        {
-           percentage = .30;
-        }
-        else if(rentaAnual >= 60000 )
-        {
-            percentage = .45;
-        }
+    // Calculate the rent to obtain the percentage
+    if (rentaAnual < 10000)
+    {
+        percentage =.05;
+    }
+    else if((rentaAnual >= 10000) && (rentaAnual < 20000 ))
+    {
+        percentage= .15;
+    }
+    else if((rentaAnual >= 20000) && (rentaAnual < 35000))
+    {
+        percentage = .20;
+    }
+    else if((rentaAnual >= 35000) && (rentaAnual < 60000))
+    {
+       percentage = .30;
+    }
+    else if(rentaAnual >= 60000 )
+    {
+        percentage = .45;
+    }
     
     //view the results 
     cout << "The annual percentage rate is : " << (percentage*100) << "%" << endl;
     cout << "The annual interest rate is : " << (rentaAnual*percentage) << endl;
 
     return 0;
+}
+
+//Library for managing inputs and outputs
+#include<iostream>
+
+//Using the namespace to avoid the std::
+using namespace std;
+
+//Main function of integer type
+int main(){
+
+//Variable Declaration
+double c;
+
+//Enter the rating number
+cout<<"What is your qualification?: " <<endl;
+cin>>c;
+//Execution of the problem
+if ((c == 0)||(c == 0.4)||(c >= 0.6 && c <= 1)){
+    if(c == 0){
+        cout<<"unattainable: " <<endl;
+    }
+    else if(c == 0.4){
+        cout<<"Acceptable: " <<endl;
+    }
+    else if(c >= 0.6 && c <= 1){
+        cout<<"meritorious: "<<endl;
+    }
+    cout<<"Your bonus is:  " <<2400*c;
     }
 
-```
+    //If none of the other qualifications are met, it is: 
+    else{
+        cout<<"invalid: " <<endl;
+    }
+    return 0;
+}
 
-## Function
-<p> Show the user the corresponding porcentaje to pay according to the total amount of rent </p>
-<ol>
-<li>The user enters the personal amount of rent
-<li>The calculations corresponding to the amount entered are performed as follows:
-<ol>
-<ol type="a">
-<li>If the amount is less than $10,000, the porcentaje will be equal to: 5%
-<li>If the amount is less than or equal to $10,000 or less than $20,000, the porcentage will be equal to: 15%
-<li>If the amount is less than or equal to $20,000 or less than $35,000, the porcentage will be equal to: 20%
-<li>If the amount is less than or equal to $35,000 or less than $60,000, the porcentage be equal to: 30%
-<li>If the amount is greater than or equal to $60,000, the porcentage will be equal to: 45%
-</ol>
 
-<h3> Final results</h3>
-<ol type="A>
-<li>For amount less than $10,000        
-    <img src="up210439_CPP/../../capt/renta1.png">
-<li>For an amount greater than or equal to $10,000 or less than $20,000
-    <img src="up210439_CPP/../../capt/renta3.png">  
-<li>For an amount greater than or equal to $20,000 or less than $35,000
-    <img src="up210439_CPP/../../capt/renta4.png">   
-<li>For an amount greater than or equal to $35,000 or less than $60,000
-    <img src="up210439_CPP/../../capt/renta5.png">  
-<li>For amounts greater than or equal to $60,000</li>
-    <img src="up210439_CPP/../../capt/renta2.png">
-                                                 
-</ol>
- 
- <br><br><br>                                                 
+//Library for managing inputs and outputs
+#include<iostream>
+
+//Using the namespace to avoid the std::
+using namespace std;
+
+//Main function of integer type
+int main(){
+
+ //Variable Declaration   
+    int age;
+    int ca;  //amount of money to pay
+
+    cout<<"What is your age?: " <<endl;
+    cin>>age;
+
+    if( age <= 4 ){
+        int free = 0;
+        ca = free;  
+        
+    }
+    else if((age >=  4)&&(age <18)){
+        ca = 5;
+    }
+    else if((age >= 18)){
+        ca = 10;
+    }
+    cout<<"The amount to pay is: "<< "$" << (ca) << endl;
+
+    return 0; 
+}
+
+
+#include<iostream>
+
+using namespace std;
+
+int main (){
+//----Declaration of variables----
+    int pizza;
+    int ingredientes;
+
+    //Request rental amount from the user
+    cout << "Do you want a Vegetarian (Digit 1) or Non-Vegetarian (Digit 2) pizza)?" << endl;
+    cin >> pizza;
+    //Printing of the selected menu
+    if (pizza == 1)
+    {
+        cout << "Vegetarian Ingredients: " << endl;
+        cout << "2. Pepper" << endl;
+        cout << "3. Tofu" << endl;
+        cout << "Enter the number of the ingredient of your choice: " << endl;
+        cin >> ingredientes;
+        if (ingredientes == 2)
+        {
+            cout << "ORDEN:" << endl;
+            cout << "Vegetarian pizza" << endl;
+            cout << "Ingredients: " << endl;
+            cout << "Mozzarella cheese, tomato sauce and pepper" << endl;
+         
+        }
+        else
+        {      
+            cout << "ORDEN:" << endl;
+            cout << "Vegetarian pizza" << endl;
+            cout << "Ingredients: " << endl;
+            cout << "Mozzarella cheese, tomato sauce and tofu" << endl;
+        }
+    }
+    else if (pizza == 2)
+    {
+        cout << "Non Vegetarian Ingredients: " << endl;
+        cout << "4.Pepperoni" << endl;
+        cout << "5.Ham" << endl;
+        cout << "6.Salmon" << endl;
+        cout << "Enter the number of the ingredient of your choice: " << endl;
+        cin >> ingredientes;
+        if (ingredientes == 4)
+        {
+            cout << "ORDEN:" << endl;
+            cout << "Non Vegetarian Pizza" << endl;
+            cout << "Ingredients: " << endl;
+            cout << "Mozzarella cheese, Tomato sauce and Pepperoni" << endl;
+        }
+        else if (ingredientes == 5)
+        {
+            cout << "ORDEN:" << endl;
+            cout << "Non Vegetarian Pizza" << endl;
+            cout << "Ingredients: " << endl;
+            cout << "Mozzarella cheese, Tomato sauce and Ham" << endl;
+        }
+        else
+        {
+            cout << "ORDEN:" << endl;
+            cout << "Non Vegetarian Pizza" << endl;
+            cout << "Ingredients: " << endl;
+            cout << "Mozzarella cheese, Tomato sauce and salmon" << endl;
+        }
+    }
+    else
+    {
+        cout << "Try again" << ":(" << endl;
+    }
+    
+
+    return 0;  
+}
+
+
+//Library for managing inputs and outputs
+#include <iostream>
+
+//Using the namespace to avoid the std::
+using namespace std;
+
+//Main function of integer type
+int main(){
+    //Variable Declaration 
+    int cont =1;
+    int lower = 99999;
+    int higher = 0; 
+    float temperature;
+    float tempAcum =0;
+    
+    do{
+        cout << "Give me the temperature: ";
+        cin >> temperature; 
+        tempAcum += temperature;  
+
+        cont ++;
+        if (temperature <= lower)
+        {
+            lower = temperature;
+        }
+        if (temperature >= higher)
+        {
+            higher = temperature;
+        } 
+    }   while(cont <= 6);
+
+    //print results
+    cout << " The mean is " <<tempAcum/6<< endl;
+    cout << " lower temperature is: " <<lower<< endl;
+    cout << " hingher temperature is: " <<higher<< endl;
 
    
-<h1 align="left"> 
-EXERCISE 2: Benefits: bonus assigned according to scores
-<h2> Code structure (C++)</h2>
-<div><h4>Input</h4></div>                                              
+    return 0;
+}
+
+
+//Library for managing inputs and outputs
+#include<iostream>
+
+//Using the namespace to avoid the std::
+using namespace std;
+
+//Main function of integer type
+int main(){
+
+ //Variable Declaration 
+ int productQuantity =0;
+ int totalBills;
+ int price =0;
+ int cont = 1; 
+ int Exit = 0;  
+
+do
+{
+    
+cout << "Enter the quantity of product: " <<endl;
+cin >> productQuantity;
+
+if(productQuantity !=0 & productQuantity > 0){
+
+    cout << "Enter the price of your product: " << endl;
+    cin >> price;
+}
+else { 
+    cout<< "Wrong try again: " << endl; 
+}
+
+totalBills += price*productQuantity; 
+
+} while (productQuantity > 0);
+
+cout << "The total bills is: " << "$" << totalBills <<endl;
+
+return 0;
+
+}
+
+//Library declaration
+#include<iostream>
+
+//statement to avoid std
+using namespace std;
+
+int main(){
+     int num;
+    string result;
+
+    do{
+
+        cout<<"Enter the number to convert: ";
+        cin>>num;
+
+        if(num>0){
+            cout<<"elderly to zero"<<endl; 
+            while(num!=0){
+            if(num%2==0){
+            //The current result with the previous
+            result='0'+result;
+            }
+            else 
+            result='1'+result;
+            num/=2;
+            
+        }
+        }
+        else if(num==0){
+            cout<<"0"<<endl;
+        }
+        else{
+            cout<<"smaller to zero"<<endl;
+        }
+   
+    
+
+    }while(num<0);
+    cout<<result<<endl;
+
+
+    return 0;
+ }
+
+
+ #include <iostream>
+
+using namespace std;
+
+int main(){
+
+    //--Declarar variables--
+    int limite, num, result;
+
+    //--ingresar el número (que tan grande será la tabla--
+    cout << "What number do you want the table to be: " <<endl;
+    cin >> num;
+
+    //Ingresar el limite que quiero 
+    cout << "Enter the limit: " <<endl;
+    cin >> limite; 
+
+    //--contador es igual a 1, contador menor o igual a 15, al contador se le va sumando-- 
+    for (int i = 0; i <= limite; i++)
+    {
+       for(int f = 1; f <= 48; f++)
+    {
+        cout << "-";     
+    }
+    cout<<endl;
+
+    result=num*i;
+        cout << "| " << "\t" << i << "\tX" << "\t" << num << "\t=" << "\t" << result << "\t" << "|" <<endl;
+    }
+    
+    return 0; 
+}
+
