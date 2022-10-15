@@ -1,5 +1,5 @@
 <h1 align="center">
-WELCOME TO UNIT 2. 
+WELCOME TO UNIT 2. :D    
 <h1 align="center"> 
 EXERCISE 1: Corresponding porcentage according to the amount of rent of the client.
 <h2> Code Structure (C++)</h2>
@@ -77,16 +77,23 @@ EXERCISE 1: Corresponding porcentage according to the amount of rent of the clie
 </ol>    
 <h3> Results</h3>
 <ol type="A>
+<li>Less than $10,000.
+<div align ="center">           
 <li>For amount less than $10,000
-    <img src="up210439_CPP/../../capt/renta1.png">
-<li>For an amount greater than or equal to $10,000 or less than $20,000
+<div align ="center">            
+    <img src="up210439_CPP/../../capt/renta1.png">                                                                                                          <li>For an amount greater than or equal to $10,000 or less than $20,000
+<div align ="center">                                                   
     <img src="up210439_CPP/../../capt/renta3.png">
- <li>For an amount greater than or equal to $20,000 or less than $35,000
+<li>For an amount greater than or equal to $20,000 or less than $35,000
+<div align ="center">                                                   
     <img src="up210439_CPP/../../capt/renta4.png">
  <li>For an amount greater than or equal to $35,000 or less than $60,000
+<div align ="center">                                                   
     <img src="up210439_CPP/../../capt/renta5.png">
  <li>For amounts greater than or equal to $60,000</li>
+<div align ="center">                                                   
     <img src="up210439_CPP/../../capt/renta2.png">
+</div>                                                 
 </ol>
  
 <br><br><br>
@@ -218,11 +225,17 @@ EXERCISE 3: Tickets: (Price corresponding to pay according to your age).
 <h3> Results</h3>
 <ol type="A>
 <li>Age less than 4 = 0 (free).</li>
+<div align ="center">           
+<li>Age less than 4 = 0 (free).</li>
+<div align ="center">          
     <img src="up210439_CPP/../../capt/entrada1.png">
 <li>Age over 4 but under 18 = $5 pesos per ticket.</li>
-    <img src="up210439_CPP/../../capt/entrada2.png">
+<div align ="center">                                                   
+    <img src="up210439_CPP/../../capt/entrada2.png">                                                   
 <li>Age over 18 = $10 pesos the ticket.</li>
+<div align ="center">                                                   
     <img src="up210439_CPP/../../capt/entrada3.png">
+</div>                                                   
 </ol>
  
  <br><br><br>
@@ -327,16 +340,26 @@ EXERCISE 4: Pizza: (Sample of the menu according to the client's selection).
 <h3> Results</h3>
 <ol type="A>
 <li>Vegetarian pizza: peper(Mozzarella cheese, tomato sauce and tofu).
+<div align ="center"> 
+<li>Vegetarian pizza: peper(Mozzarella cheese, tomato sauce and tofu).
+<div align ="center">    
     <img src="up210439_CPP/../../capt/pizza1.png">
+<div align ="center">    
 <li>Vegetarian pizza: tofu (Mozzarella cheese, tomato sauce and tofu).
+<div align ="center">    
     <img src="up210439_CPP/../../capt/pizza2.png">
 <li>Non-vegetarian pizza: pepperoni (Mozzarella cheese, Tomato sauce and Pepperoni).
+<div align ="center">    
     <img src="up210439_CPP/../../capt/pizza3.png">
 <li>Non-vegetarian pizza: Ham (Mozzarella cheese, Tomato sauce and Ham).
+<div align ="center">    
     <img src="up210439_CPP/../../capt/pizza4.png">
 <li>Non-vegetarian pizza: salmon (Mozzarella cheese, tomato sauce and salmon).
+<div align ="center">    
     <img src="up210439_CPP/../../capt/pizza5.png">
+</div>    
 </ol>
+    
  
 <br><br><br>
 
