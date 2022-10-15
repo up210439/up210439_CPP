@@ -1,3 +1,5 @@
+<h1 align="center">
+WELCOME TO UNIT 2. 
 
 <h1 align="center"> 
 EXERCISE 1: Corresponding porcentage according to the amount of rent of the client.
@@ -397,15 +399,11 @@ EXERCISE 5: Temperatures: calculation of the average, minimum and maximum amount
 <li>The program does a search between the highest and the lowest temperature.
 <li>Finally the results are printed.
 </ol>
-<br><br>
-    
-<h3> Results</h3>
-<ol type="A>
-          
-<li>For first try, enter very low temperatures and very high temperatures.
+<br><br>    
+<h3>Results</h3>
+<ol type="A>          
+<li>As the first value enter very low temperatures and very high temperatures.
     <img src="up210439_CPP/../../capt/tem1.png">
-<li>For second try.</li>
-    <img src="up210439_CPP/../../capt/tem2.png">
 </ol>
 <br><br><br>
                                                       
