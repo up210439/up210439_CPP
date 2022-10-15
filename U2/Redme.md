@@ -144,6 +144,7 @@ EXERCISE 2: Benefits: bonus assigned according to scores.
 ## Function->
 <p> This program consists of assigning employees their bonus corresponding to their performance score; the score must be [0.0, 0.4 or greater than 0.6], any other score outside the established ones will be rejected. The percentage equal to your performance score where 100% percent is $2400 and 0% is $0. </p>
 <ol>
+<ol type="a">                             
 <li>User enters their score
 <li>If the user enters a value other than 0, 0.4 or a number greater than 0.6, the program will not advance and will throw a warning message
 <li>If the user enters a valid value, it prints the corresponding bond along with the amount to which it is creditor
@@ -210,6 +211,7 @@ EXERCISE 2: Benefits: bonus assigned according to scores.
 ## Function->
 <p> This program works based on the age entered by the user, depending on their age a price will be assigned to their ticket</p>
 <ol>
+<ol type="a">    
 <li>The user enters his age
 <li>The program begins to assign the price that corresponds to it
 <li>The price to pay is printed on the screen
@@ -319,6 +321,7 @@ EXERCISE 2: Benefits: bonus assigned according to scores.
 ## Function->
 <p> This program is based on taking the client's order with the established options and at the end its complete order is printed to be seen by the user.</p>
 <ol>
+<ol type="a">                                       
 <li>The program asks the user what type of pizza he wants
 <li>With the previous information, the menu corresponding to this selection is displayed.
 <li>At the end, the user can view their complete order to check that it is correct.
@@ -395,6 +398,7 @@ EXERCISE 5: Temperatures: calculation of the average, minimum and maximum amount
 ## Function->
 <p> This program collects temperatures given by the user to carry out the following procedure</p>
 <ol>
+<ol type="a">    
 <li>The program adds these temperatures to calculate the average between them -> (User enters 6 temperatures).
 <li>The program does a search between the highest and the lowest temperature.
 <li>Finally the results are printed.
