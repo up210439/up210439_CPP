@@ -401,9 +401,10 @@ EXERCISE 5: Temperatures: calculation of the average, minimum and maximum amount
     
 <h3> Results</h3>
 <ol type="A>
-<li>First try, enter very low temperatures and very high temperatures.
+          
+<li>For first try, enter very low temperatures and very high temperatures.
     <img src="up210439_CPP/../../capt/tem1.png">
-<li>Second try.</li>
+<li>For second try.</li>
     <img src="up210439_CPP/../../capt/tem2.png">
 </ol>
 <br><br><br>
