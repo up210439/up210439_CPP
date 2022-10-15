@@ -338,7 +338,7 @@ EXERCISE 2: Benefits: bonus assigned according to scores.
  
 <br><br><br>
 
-<h1 align="left"> 
+<h1 align="center"> 
 EXERCISE 5: Temperatures: calculation of the average, minimum and maximum amount according to the temperature given by the user.
 <h2> Code structure (C++)</h2>
 <div><h4>Input</h4></div>
@@ -398,13 +398,14 @@ EXERCISE 5: Temperatures: calculation of the average, minimum and maximum amount
 <li>Finally the results are printed.
 </ol>
 <br><br>
+    
 <h3> Results</h3>
 <ol type="A>
 <li>First try, enter very low temperatures and very high temperatures.
     <img src="up210439_CPP/../../capt/tem1.png">
-<li>Second try.
+<li>Second try.</li>
     <img src="up210439_CPP/../../capt/tem2.png">
-
+</ol>
 <br><br><br>
                                                       
 //Library for managing inputs and outputs
