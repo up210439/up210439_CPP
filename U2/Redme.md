@@ -403,11 +403,11 @@ EXERCISE 5: Temperatures: calculation of the average, minimum and maximum amount
 <br><br>    
 <h3>Results</h3>   
 a. As the first value enter very low temperatures and very high temperatures. 
-<div align ="center">       
+<div align ="left">       
     <img alt= <img src="up210439_CPP/../../capt/tem1.png"> 
 </div>      
 b. Second try.
-<div align ="center">     
+<div align ="left">     
     <img alt=img src="up210439_CPP/../../capt/tem2.png"> 
 </div>     
 <br><br><br>
