@@ -1,8 +1,11 @@
-<h1 align="center">
+</h1>
+<div align="center">
 WELCOME TO UNIT 2. 
-
-<h1 align="center"> 
+<div>
+</h1>
+<div align="center"> 
 EXERCISE 1: Corresponding porcentage according to the amount of rent of the client.
+<div>
 </h1>
 <h2> Code Structure (C++)</h2>
 <div><h4>Input</h4></div>
@@ -93,9 +96,10 @@ EXERCISE 1: Corresponding porcentage according to the amount of rent of the clie
  
 <br><br><br>
                                                  
- 
-<h1 align="center"> 
+</h1>
+<div align="center"> 
 EXERCISE 2: Benefits: bonus assigned according to scores.
+<div>                   
 <h2> Code Structure (C++)</h2>
 <div><h4>Input</h4></div>
 
@@ -163,8 +167,9 @@ EXERCISE 2: Benefits: bonus assigned according to scores.
  
  <br><br><br>
  
-<h1 align="center"> 
- EXERCISE 3: Tickets: (Price corresponding to pay according to your age). 
+</h1>
+<div align="center"> 
+EXERCISE 3: Tickets: (Price corresponding to pay according to your age). 
 <h2> Code Structure (C++)</h2>
 <div><h4>Input</h4></div>
 
@@ -231,8 +236,10 @@ EXERCISE 2: Benefits: bonus assigned according to scores.
  <br><br><br>
  
                                                    
-<h1 align="center"> 
- EXERCISE 4: Pizza: (Sample of the menu according to the client's selection).
+</h1> 
+<div align="center"> 
+EXERCISE 4: Pizza: (Sample of the menu according to the client's selection).
+<div>
 <h2> Code Structure (C++)</h2>
 <div><h4>Input</h4></div>
 
@@ -343,8 +350,10 @@ EXERCISE 2: Benefits: bonus assigned according to scores.
  
 <br><br><br>
 
-<h1 align="center"> 
+</h1> 
+<div align="center"> 
 EXERCISE 5: Temperatures: calculation of the average, minimum and maximum amount according to the temperature given by the user.
+<div>    
 <h2> Code structure (C++)</h2>
 <div><h4>Input</h4></div>
 
@@ -405,13 +414,17 @@ EXERCISE 5: Temperatures: calculation of the average, minimum and maximum amount
 </ol>
 <br><br>    
 <h3>Results</h3>
-<ol type="A>          
-As the first value enter very low temperatures and very high temperatures.         
+<div align ="center">    
+**a)**As the first value enter very low temperatures and very high temperatures.           
 <img alt= <img src="up210439_CPP/../../capt/tem1.png"> 
-Second try.
-<img alt=img src="up210439_CPP/../../capt/tem2.png"> 
+</div>      
+**b)**Second try.
+<div align ="center">     
+    <img alt=img src="up210439_CPP/../../capt/tem2.png"> 
+</div>     
 <br><br><br>
-                                                      
+ 
+                                                  
 //Library for managing inputs and outputs
 #include<iostream>
 
