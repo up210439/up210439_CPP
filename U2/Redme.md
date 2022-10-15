@@ -328,58 +328,85 @@ EXERCISE 2: Benefits: bonus assigned according to scores.
     <img src="up210439_CPP/../../capt/pizza1.png">
 <li>Vegetarian pizza: tofu (Mozzarella cheese, tomato sauce and tofu).
     <img src="up210439_CPP/../../capt/pizza2.png">
- <li>Non-vegetarian pizza: pepperoni (Mozzarella cheese, Tomato sauce and Pepperoni).
+<li>Non-vegetarian pizza: pepperoni (Mozzarella cheese, Tomato sauce and Pepperoni).
     <img src="up210439_CPP/../../capt/pizza3.png">
- <li>Non-vegetarian pizza: Ham (Mozzarella cheese, Tomato sauce and Ham).
+<li>Non-vegetarian pizza: Ham (Mozzarella cheese, Tomato sauce and Ham).
     <img src="up210439_CPP/../../capt/pizza4.png">
- <li>Non-vegetarian pizza: salmon (Mozzarella cheese, tomato sauce and salmon).
+<li>Non-vegetarian pizza: salmon (Mozzarella cheese, tomato sauce and salmon).
     <img src="up210439_CPP/../../capt/pizza5.png">
- </ol>
+</ol>
  
- <br><br><br>
-    
-    --------------------------
-//Library for managing inputs and outputs
-#include <iostream>
+<br><br><br>
 
-//Using the namespace to avoid the std::
-using namespace std;
+<h1 align="left"> 
+EXERCISE 5: Temperatures: calculation of the average, minimum and maximum amount according to the temperature given by the user.
+<h2> Code structure (C++)</h2>
+<div><h4>Input</h4></div>
 
-//Main function of integer type
-int main(){
-    //Variable Declaration 
-    int cont =1;
-    int lower = 99999;
-    int higher = 0; 
-    float temperature;
-    float tempAcum =0;
-    
-    do{
-        cout << "Give me the temperature: ";
-        cin >> temperature; 
-        tempAcum += temperature;  
+```c++
 
-        cont ++;
-        if (temperature <= lower)
-        {
-            lower = temperature;
-        }
-        if (temperature >= higher)
-        {
-            higher = temperature;
-        } 
-    }   while(cont <= 6);
+    //Library for managing inputs and outputs
+    #include <iostream>
 
-    //print results
-    cout << " The mean is " <<tempAcum/6<< endl;
-    cout << " lower temperature is: " <<lower<< endl;
-    cout << " hingher temperature is: " <<higher<< endl;
+    //Using the namespace to avoid the std::
+    using namespace std;
 
-   
-    return 0;
-}
+    //Main function of integer type
+    int main(){
+        //Variable Declaration 
+        int cont =1;
+        int lower = 99999;
+        int higher = 0; 
+        float temperature;
+        float tempAcum =0;
+
+```
+<div><h4>Process & Output </h4></div>
 
 
+```c++    
+        do{
+            cout << "Give me the temperature: ";
+            cin >> temperature; 
+            tempAcum += temperature;  
+
+            cont ++;
+            if (temperature <= lower)
+            {
+                lower = temperature;
+            }
+            if (temperature >= higher)
+            {
+                higher = temperature;
+            } 
+        }   while(cont <= 6);
+
+        //print results
+        cout << " The mean is " <<tempAcum/6<< endl;
+        cout << " lower temperature is: " <<lower<< endl;
+        cout << " hingher temperature is: " <<higher<< endl;
+
+
+        return 0;
+    }
+```
+## Function->
+<p> This program collects temperatures given by the user to carry out the following procedure</p>
+<ol>
+<li>The program adds these temperatures to calculate the average between them -> (User enters 6 temperatures).
+<li>The program does a search between the highest and the lowest temperature.
+<li>Finally the results are printed.
+</ol>
+<br><br>
+<h3> Results</h3>
+<ol type="A>
+<li>First try, enter very low temperatures and very high temperatures.
+    <img src="up210439_CPP/../../capt/tem1.png">
+<li>Second try.
+    <img src="up210439_CPP/../../capt/tem2.png">
+
+<br><br><br>
+                                                      
 //Library for managing inputs and outputs
 #include<iostream>
 
