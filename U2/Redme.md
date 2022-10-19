@@ -671,3 +671,44 @@ d. Second part of the multiplication table of the number 9 :)
     <img alt= <img src="up210439_CPP/../../capt/tabla4.png"> 
 </div>   
 <br><br><br>       
+
+<h1 align="center"> 
+EXERCISE 9: Bisection.
+<h2> Code Structure (C++)</h2>
+<div><h4>Input</h4></div>
+
+```c++ 
+    #include<iostream>
+    #include<cmath>//para poder usar pow que significa potencia, se necesita esta libreria 
+
+    using namespace std; 
+
+    float resolver(float valor){
+        //con la ecuación: x² - x - 12; (x=-3, x=4)
+        return pow(valor, 2) - 1 * valor - 12;
+    }
+
+
+    int main(){
+
+        float error = 0.01;
+        float a, b, c; 
+        float ya, yb, yc;
+    ```
+<div><h4>Process & Output </h4></div>
+
+
+```c++ 
+        cout<<"dame el valor de a: ";
+        cin>> a;
+        cout<<"dame el valor de b: ";
+        cin>> b;
+        //cabecera
+        do
+        {
+            c = (a+b)/2;
+            ya = resolver(a);
+            yb = resolver(b);
+            yc = resolver(c);
+            cout.precision(4);
+            cout<< fixed << a <<"\t"<< b <<"\t"<< c <<"\t"<< ya <<"\t"<< yb <<"\t"<< yc << endl;    
