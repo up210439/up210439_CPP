@@ -10,19 +10,40 @@ Last modification: ##
 
 using namespace std;
 
-int rresolver(float valor){
-    //con la ecuación: x² - x - 12;
+float resolver(float valor){
+    //con la ecuación: x² - x - 12; (x=-3, x=4)
     return pow(valor, 2) - 1 * valor - 12;
 }
 
-int intento(int num){
-    int resultado;
-    resultado = num;
-    return resultado;
+
+int main(){
+
+    float error = 0.01;
+    float a, b, c; 
+    float ya, yb, yc;
+    cout<<"dame el valor de a: ";
+    cin>> a;
+    cout<<"dame el valor de b: ";
+    cin>> b;
+    //cabecera
+    do
+    {
+        c = (a+b)/2;
+        ya = resolver(a);
+        yb = resolver(b);
+        yc = resolver(c);
+        cout.precision(4);
+        cout<< fixed << a <<"\t"<< b <<"\t"<< c <<"\t"<< ya <<"\t"<< yb <<"\t"<< yc << endl;
+        if(ya * yc < 0)
+            b=c;
+        else if(yc * yb < 0)
+            a=c;
+        else 
+            cout<< "No root";
+
+    } while (abs (yc) >= error);
+
+    cout<<"el valor de la raiz se encuentra en:"<< c << endl;
+    return 0;
 }
-
-int main()
-    int interador = 1;
-    float a = 1, b = 2; 
-
 
