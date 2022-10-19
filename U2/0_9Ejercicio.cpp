@@ -5,10 +5,10 @@ Description: programa biseccion
 Email: up210439@alumnos.upa.edu.mx
 Last modification: ##
 */
-#include <iostream>
-#include <cmath>//para poder usar pow que significa potencia, se necesita esta libreria 
+#include<iostream>
+#include<cmath>//para poder usar pow que significa potencia, se necesita esta libreria 
 
-using namespace std;
+using namespace std; 
 
 float resolver(float valor){
     //con la ecuación: x² - x - 12; (x=-3, x=4)
