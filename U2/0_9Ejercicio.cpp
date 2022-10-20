@@ -47,3 +47,17 @@ int main(){
     return 0;
 }
 
+/*
+Autor: 
+Fecha: 
+Descripción: 
+*/ 
+
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+return 0;
+}
