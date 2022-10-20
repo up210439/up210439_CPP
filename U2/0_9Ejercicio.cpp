@@ -21,9 +21,9 @@ int main(){
     float error = 0.01;
     float a, b, c; 
     float ya, yb, yc;
-    cout<<"dame el valor de a: ";
+    cout<<"Dame el valor de a: ";
     cin>> a;
-    cout<<"dame el valor de b: ";
+    cout<<"Dame el valor de b: ";
     cin>> b;
     //cabecera
     do
