@@ -10,63 +10,42 @@ El prograa debera arrojar cambio y calcularlo.
 #include <iostream>
 using namespace std;
 
-void obtenerCambio(int)
-void obtenerMonedas(int)
-void imprimirCambio(string)
+void obtenerCambio(int);
+void imprimirCambio();
 
-void imprimirDinero int (mil, quinientos, docientos, cien, cincuenta, veinte, dies, cinco, dos, uno);
+int denominaciones[9]={500, 200, 100, 50, 20, 10, 5, 2, 1};
+int cantidadBilletes[9]={0};
+int residuo = 0;
 
 int main(){
     int dinero;
 
-    int mil=0, quinientos=0, docientos=0, cien=0, cincuenta=0, veinte=0;
-    int dies=0, cinco=0, dos=0, uno=0;
-
-    cout<< "Dame la cantidad de dinero: ";
+    cout<< "Give me the amount of money: ";
     cin>> dinero;
 
-    obtenerCambio(dinero)//dinero ingresado. 
-    imprimirCambio("Total")//incluye los billetes y monedas.
-    
-    obtenerMonedas(dinero)//dinero ingresado
-    imprimirCambio(monedas)//unicamente para monedas. 
-    
+    obtenerCambio (dinero);
+    imprimirCambio ();
+
 return 0; 
 }
 
-void imprimirDinero int (mil, quinientos, docientos, cien, cincuenta, veinte, dies, cinco, dos, uno);
-void obtenerCambio(int)
-void obtenerMonedas(int)
-void imprimirCambio(string)
-{
+void obtenerCambio(int monto){
 
+    for(int denominacion=0; denominacion<9; denominacion++){
+        residuo=(denominacion==0)?monto:residuo;
+        cantidadBilletes[denominacion]=residuo/denominaciones[denominacion];
 
-    mil=dinero/1000;
-    dinero=dinero%1000;
+        residuo=residuo%denominaciones[denominacion];
+    }
+ 
+}
 
-    quinientos=dinero/500;
-    dinero=dinero%500; 
-
-    docientos=dinero/200;
-    dinero=dinero%200; 
-
-    cien=dinero/100;
-    dinero=dinero%100; 
+void imprimirCambio(){
+    for (int cambio = 0; cambio < 9; cambio++)
+    {
+        int tipo;
+        tipo=(cambio < 5)?" Billetes ":" Monedas ";
+        cout << tipo << " de $ " << denominaciones[] <<" : ";
+    }
     
-    cincuenta=dinero/50;
-    dinero=dinero%50; 
-
-    veinte=dinero/20;
-    dinero=dinero%20; 
-    
-    diez=dinero/10;
-    dinero=dinero%10; 
-    
-    cinco=dinero/5;
-    dinero=dinero%5;
-
-    dos=dinero/2;
-    dinero=dinero%2;
-
-    uno=dinero;
 }
