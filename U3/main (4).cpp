@@ -1,11 +1,8 @@
-/******************************************************************************
-
-Welcome to GDB Online.
-GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby, 
-C#, OCaml, VB, Perl, Swift, Prolog, Javascript, Pascal, HTML, CSS, JS
-Code, Compile, Run and Debug online from anywhere in world.
-
-*******************************************************************************/
+/*
+Autor: Maria del Carmen Viramontes Contreras
+Fecha: 21/NOVIEMBRE/2022
+Descripción: JUEGO DEL GATO << HUMAN VS HUMAN >>
+*/
 #include <iostream>
 #include <string.h>
 using namespace std;
