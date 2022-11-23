@@ -66,11 +66,12 @@ main (4)
  ## __Tests__
 <h4>
 Game explanation
+ 
 ✅ This game will be human against human
  
 ✅ When starting the game
  
-    -will ask for the name of each one, putting the number of each player and the color
+    🔸 will ask for the name of each one, putting the number of each player and the color
  
 ✅ Each player must give his best play
  
