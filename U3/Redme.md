@@ -67,11 +67,17 @@ main (4)
 <h4>
 Game explanation
 ✅ This game will be human against human
+ 
 ✅ When starting the game
+ 
     -will ask for the name of each one, putting the number of each player and the color
+ 
 ✅ Each player must give his best play
+ 
 ✅ The figures that the players will have are:
+ 
    🔸 player one will get >❌<
+ 
    🔸 Player two will get >🟢<
 
 </h4>
