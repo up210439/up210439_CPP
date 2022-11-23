@@ -69,6 +69,8 @@ Game explanation
  
 ✅ This game will be human against human
  
+✅ You must enter an integer number (those that are shown inside the board so that the move is correct)
+ 
 ✅ When starting the game
  
     🔸 will ask for the name of each one, putting the number of each player and the color
@@ -83,3 +85,11 @@ Game explanation
 
 </h4>
  
+<div align="center">
+<h2>Player vs Player
+ 
+¡¡Que gane el mejor!!
+ 
+ 🎖️
+</h2>
+</div align="center">
