@@ -105,3 +105,9 @@ Creating this game was quite a challenge, I had several doubts when creating the
 For me it was a complex code because it was extensive and there were several conditions to be able to reach what was expected. I learned about new functions and techniques to work better and faster. I have noticed improvement in my progress due to the good practices with the teacher and the amazing explanations.
 knowing that a game as common as the cat, has so much intelligence when it comes to coding on a computer, is admirable, that such simple things can become amazing.
  </h4>
+ 
+ <h1>
+👋🏼</h1>
+<img src= "https://github.com/up210439/up210439_CPP/blob/main/imagenes/CRUZ%20O%20BOLITA.png" height="200" width="200">
+
+</div align="center">
