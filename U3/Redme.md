@@ -1,6 +1,7 @@
 <div align="center"> 
 <h1>
-HELLO!
+👾¡HELLO!👾
+ 
 I show you my U3 repository</h1>
 
 <h1>
@@ -59,7 +60,9 @@ main (4)
  
 <div align="center">
 <h4>This link will help you enter my tic tac toe</h4>
-"https://github.com/up210439/up210439_CPP/blob/main/U3/main%20(4).cpp"
+➡️"https://github.com/up210439/up210439_CPP/blob/main/U3/main%20(4).cpp"
 </div align="center">
 
+ ## __Tests__
 
+Game explanation
