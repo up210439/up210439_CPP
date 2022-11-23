@@ -19,12 +19,20 @@ In order to enjoy both single player and multiplayer game modes, you must first 
 </div align="center">
 </h4>
 
-<h3>->OBSERVATIONS<-</h3>
+  
+## _🤖 INDEX_ 
+<h4>
+ 
+1. [OBSERVATIONS](https://github.com/up210439/up210439_CPP/tree/main/U3#--OBSERVATIONS--)
+2. [Linux (Ubuntu)](https://github.com/up210439/up210439_CPP/tree/main/U3#----Linux (Ubuntu))
+</h4>
+
+## _OBSERVATIONS_
 <h4>
 a) When creating folder to clone the repository: As a recommendation: clone the repository in documents on your desktop. 
 </h4>
 
-<h2> Linux (Ubuntu)</h2>
+## _Linux (Ubuntu)_
 <h4>
  1. Enter my repository 
   
@@ -59,7 +67,8 @@ main (4)
 </h4>  
  
 <div align="center">
-<h4>This link will help you enter my tic tac toe</h4>
+<h2>This link will help you enter my tic tac toe</h2>
+ 
 ➡️"https://github.com/up210439/up210439_CPP/blob/main/U3/main%20(4).cpp"
 </div align="center">
 
