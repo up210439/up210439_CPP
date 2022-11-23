@@ -71,10 +71,10 @@ int seleccionarJugada(string j1, string j2){
     do{
        if(turnoJugador % 2 == 0)//------PARES--------
        {
-        cout<<"\nTurno de" <<CYAN <<j1 <<ENDC <<", dame la jugada:";
+        cout<<"\nTurno de " <<CYAN <<j1 <<ENDC <<", dame la jugada:";
        }
        else{
-        cout <<"\nTurno de" <<VERDE <<j2 <<ENDC <<", dame la jugada:";
+        cout <<"\nTurno de " <<VERDE <<j2 <<ENDC <<", dame la jugada:";
        }
        cin >> jugada;
     }while(jugada < 1 && jugada > 9);
