@@ -93,3 +93,10 @@ Game explanation
  🎖️
 </h2>
 </div align="center">
+
+ 
+<h4>
+Creating this game was quite a challenge, I had several doubts when creating the code. It is a good way to start growing in the programming area, since you understand, analyze and imagine the problem to be solved, giving the best structure that can be.
+For me it was a complex code because it was extensive and there were several conditions to be able to reach what was expected. I learned about new functions and techniques to work better and faster. I have noticed improvement in my progress due to the good practices with the teacher and the amazing explanations.
+knowing that a game as common as the cat, has so much intelligence when it comes to coding on a computer, is admirable, that such simple things can become amazing.
+ </h4>
