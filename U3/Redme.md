@@ -94,6 +94,11 @@ Game explanation
 </h2>
 </div align="center">
 
+ <div align="center">
+
+## __✍🏼Conclusion__
+
+</div align="center">
  
 <h4>
 Creating this game was quite a challenge, I had several doubts when creating the code. It is a good way to start growing in the programming area, since you understand, analyze and imagine the problem to be solved, giving the best structure that can be.
