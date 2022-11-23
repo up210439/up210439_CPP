@@ -88,7 +88,7 @@ Game explanation
 <div align="center">
 <h2>Player vs Player
  
-¡¡Que gane el mejor!!
+¡¡MAY THE BEST WIN!!
  
  🎖️
 </h2>
