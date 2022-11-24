@@ -23,18 +23,21 @@ In order to enjoy both single player and multiplayer game modes, you must first 
 ## _🤖 INDEX_ 
 <h4>
  
-1. [OBSERVATIONS](#-OBSERVATIONS)
-2. [Linux (Ubuntu)](#-Linux (Ubuntu))
+1. [OBSERVATIONS](#observations)
+2. [Linux (Ubuntu)](#linux-ubuntu)
 3. [Flowchart]
-3. [Tic Tac Toe](# "<h2>This link will help you enter my tic tac toe</h2>") 
-4. [Tests](#-Tests)
-5. [Steps](#-Steps)
-6. [Conclusion](#-✍🏼Conclusion)
+3. [Tic Tac Toe](#this-link-will-help-you-enter-my-tic-tac-toe) 
+4. [Tests](#tests)
+5. [Steps](#steps)
+6. [Conclusion](#conclusion)
 </h4>
 
 ## _OBSERVATIONS_
 <h4>
-a) When creating folder to clone the repository: As a recommendation: clone the repository in documents on your desktop. 
+a) When creating folder to clone the repository: As a recommendation: clone the repository in documents on your desktop.
+ 
+b) Link to download PSInt, a valuable tool for creating flowcharts "https://sourceforge.net/projects/pseint/"
+ 
 </h4>
 
 ## _Linux (Ubuntu)_
