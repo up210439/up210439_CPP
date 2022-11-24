@@ -99,7 +99,7 @@ Game explanation
 <img src= "https://github.com/up210439/up210439_CPP/blob/main/imagenes/2022-11-23%20(2).png" height="200" width="250"> 3)
 <img src= "https://github.com/up210439/up210439_CPP/blob/main/imagenes/2022-11-23%20(3).png" height="200" width="250">
  
-4)<img src= "https://github.com/up210439/up210439_CPP/blob/main/imagenes/Captura%20de%20pantalla%202022-11-23%20a%20las%2022.25.51.png" height="200" width="250">
+4)<img src= "https://github.com/up210439/up210439_CPP/blob/main/imagenes/Captura%20de%20pantalla%202022-11-23%20a%20las%2022.25.51.png" height="200" width="250"> 5) <img src= "https://github.com/up210439/up210439_CPP/blob/main/imagenes/Captura%20de%20pantalla%202022-11-23%20a%20las%2022.41.15.png" height="200" width="250"> 
  
 
 </h4>
