@@ -264,11 +264,11 @@ int main()
         {
             if (playerTurn % 2 == 0)
             {
-                cout << "¡CONGRATULATIONS! PLAYER 1 WON :) \n";
+                cout << "¡CONGRATULATIONS! PLAYER 2 WON :) \n";
             }
             else
             {
-                cout << "¡CONGRATULATIONS! PLAYER 2 WON :) \n";
+                cout << "¡CONGRATULATIONS! PLAYER 1 WON :) \n";
             }
         }
         else
