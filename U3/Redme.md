@@ -23,8 +23,12 @@ In order to enjoy both single player and multiplayer game modes, you must first 
 ## _🤖 INDEX_ 
 <h4>
  
-1. [OBSERVATIONS](https://github.com/up210439/up210439_CPP/tree/main/U3#--OBSERVATIONS--)
-2. [Linux (Ubuntu)](https://github.com/up210439/up210439_CPP/tree/main/U3#----Linux (Ubuntu))
+1. [OBSERVATIONS](#-OBSERVATIONS)
+2. [Linux (Ubuntu)](#-Linux (Ubuntu))
+3. [Tic Tac Toe](# "<h2>This link will help you enter my tic tac toe</h2>") 
+4. [Tests](#-Tests)
+5. [Steps](#-Steps)
+6. [Conclusion](#-✍🏼Conclusion)
 </h4>
 
 ## _OBSERVATIONS_
@@ -95,8 +99,14 @@ Game explanation
 ## _Steps_
 <h3> evidence explanation</h3>             
 🔸 As a first test when executing the program, it is observed that the input (program) is shown on the screen, where it asks for the names of the players
+ 
 🔸 Later the names of each player are placed assigning the color of the character and name 
-🔸 
+ 
+🔸 At point 4 the victory of player 2 is shown = X
+ 
+🔸 At point 5 the tie is shown, no victory was obtained
+ 
+🔸 At point 6 the victory of player 1 is shown = O 
 <h4> 
  1)
 <img src= "https://github.com/up210439/up210439_CPP/blob/main/imagenes/2022-11-23.png" height="200" width="250"> 2)
