@@ -23,12 +23,12 @@ In order to enjoy both single player and multiplayer game modes, you must first 
 ## _🤖 INDEX_ 
 <h4>
  
-1. [OBSERVATIONS](#-OBSERVATIONS)
-2. [Linux (Ubuntu)](#-Linux (Ubuntu))
-3. [Tic Tac Toe](# "<h2>This link will help you enter my tic tac toe</h2>") 
-4. [Tests](#-Tests)
-5. [Steps](#-Steps)
-6. [Conclusion](#-✍🏼Conclusion)
+1. [OBSERVATIONS](#--OBSERVATIONS)
+2. [Linux (Ubuntu)](#--Linux (Ubuntu))
+3. [Tic Tac Toe](#-"<h2>This link will help you enter my tic tac toe</h2>") 
+4. [Tests](#--Tests)
+5. [Steps](#--Steps)
+6. [Conclusion](#--✍🏼Conclusion)
 </h4>
 
 ## _OBSERVATIONS_
@@ -97,7 +97,7 @@ Game explanation
    🔸 Player two will get >🟢<
 
 ## _Steps_
-<h3> evidence explanation</h3>             
+<h3> Evidence explanation</h3>             
 🔸 As a first test when executing the program, it is observed that the input (program) is shown on the screen, where it asks for the names of the players
  
 🔸 Later the names of each player are placed assigning the color of the character and name 
