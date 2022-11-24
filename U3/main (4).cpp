@@ -238,7 +238,7 @@ int main()
     {
         cout << "Who is player 1: ";
         cin >> name_j1;
-        cout << "\nWho is jugador 2: ";
+        cout << "\nWho is player 2: ";
         cin >> name_j2;
         cout << "\n";
         do
