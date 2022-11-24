@@ -23,12 +23,13 @@ In order to enjoy both single player and multiplayer game modes, you must first 
 ## _🤖 INDEX_ 
 <h4>
  
-1. [OBSERVATIONS](#--OBSERVATIONS)
-2. [Linux (Ubuntu)](#--Linux (Ubuntu))
-3. [Tic Tac Toe](#-"<h2>This link will help you enter my tic tac toe</h2>") 
-4. [Tests](#--Tests)
-5. [Steps](#--Steps)
-6. [Conclusion](#--✍🏼Conclusion)
+1. [OBSERVATIONS](#-OBSERVATIONS)
+2. [Linux (Ubuntu)](#-Linux (Ubuntu))
+3. [Flowchart]
+3. [Tic Tac Toe](# "<h2>This link will help you enter my tic tac toe</h2>") 
+4. [Tests](#-Tests)
+5. [Steps](#-Steps)
+6. [Conclusion](#-✍🏼Conclusion)
 </h4>
 
 ## _OBSERVATIONS_
