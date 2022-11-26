@@ -80,6 +80,8 @@ main (4)
 ➡️"https://github.com/up210439/up210439_CPP/blob/main/U3/main%20(4).cpp"
 </div align="center">
 
+##_Flowchart_
+
  ## __Tests__
 <h4>
 Game explanation
