@@ -25,7 +25,7 @@ In order to enjoy both single player and multiplayer game modes, you must first 
  
 1. [OBSERVATIONS](#observations)
 2. [Linux (Ubuntu)](#linux-ubuntu)
-3. [Flowchart]
+3. [flowchart](#-flowchart)
 3. [Tic Tac Toe](#this-link-will-help-you-enter-my-tic-tac-toe) 
 4. [Tests](#tests)
 5. [Steps](#steps)
@@ -78,9 +78,17 @@ main (4)
 <h2>This link will help you enter my tic tac toe</h2>
  
 ➡️"https://github.com/up210439/up210439_CPP/blob/main/U3/main%20(4).cpp"
+
+<h2>
+ 
+##__Flowchart__
+ 
+</h2>
+ 
+"https://github.com/up210439/up210439_CPP/blob/main/U3/diagrama%20de%20flujo.docx"
 </div align="center">
 
-##_Flowchart_
+
 
  ## __Tests__
 <h4>
