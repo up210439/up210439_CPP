@@ -81,11 +81,15 @@ main (4)
 
 <h2>
  
-##__Flowchart__
+## __Flowchart__
  
 </h2>
  
-"https://github.com/up210439/up210439_CPP/blob/main/U3/diagrama%20de%20flujo.docx"
+</div> 
+</h1>  
+<div align ="center">
+<img alt="age0" height="" src="../U3/imagen/flow.png"/>
+</div>
 </div align="center">
 
 
