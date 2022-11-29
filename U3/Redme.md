@@ -88,7 +88,7 @@ main (4)
 </div> 
 </h1>  
 <div align ="center">
-<img alt="age0" height="" src="../U3/imagen/flow.png"/>
+<img alt="age0" height="" src="../imagenes/flow.png"/>
 </div>
 </div align="center">
 
