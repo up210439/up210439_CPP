@@ -8,10 +8,16 @@ maria del carmen viramontes contreras
 #include<windows.h>
 #include<conio.h>
 
+using namespace std;
 
-using nmaenamespace std;
 
-//  Tablero batalla naval 
+void gotoxy(int x, int y){
+HANDLE hcon = GetStdHandle(STD_OUTPUT_HANDLE);
+ COORD dwPos;
+ dwPos.X = x;
+ dwPos.Y = y;
+ SetConsoleCursorPosition(hcon, dwPos);
+}
 
 char ma[22][22] =   {{' ',' ','A',' ','B',' ','C',' ','D',' ','E',' ','F',' ','G',' ','H',' ','I',' ','J',' '},
        {' ',' ','_','_','_','_','_','_','_','_','_','_','_','_','_','_','_','_','_','_','_',' '},
@@ -35,9 +41,61 @@ char ma[22][22] =   {{' ',' ','A',' ','B',' ','C',' ','D',' ','E',' ','F',' ','G
        {' ','|','-','|','-','|','-','|','-','|','-','|','-','|','-','|','-','|','-','|','-','|'},
        {'9','|',' ','|',' ','|',' ','|',' ','|',' ','|',' ','|',' ','|',' ','|',' ','|',' ','|'},
        {' ',' ','-','-','-','-','-','-','-','-','-','-','-','-','-','-','-','-','-','-','-',' '},};
-       
-     
-    void 
-int main()
 
 
+class enemigo{
+
+    private:
+
+        public:
+
+        void pintar(int, int);
+        void borrar(int, int);
+        void mover(int &, int &);
+
+};
+
+void enemigo::pintarmapa()
+{
+    for(int i=0;i<22;i++)
+    {
+        for(int j=0;j<22;j++)
+        {
+          cout<<ma[i][j];  
+        }
+    }
+}
+void enemigo::pintar(int &x, int &y)
+{
+    gotoxy(x,y)cout<<"O";
+}
+void enemigo::borrar(int x, int y)
+{
+    gotoxy(x,y);cout<<" ";
+}
+void enemigo::mover(int x, int y)
+{
+    if (kbhit())
+    {
+        enmigo::borrar(x,y);
+        char tecla = getch();
+        if(tecla == 'a') x--;
+        if(tecla == 'd') x++;
+        if(tecla == 'w') y--;
+        if(tecla == 's') y++;
+        enemigo::pintar(x,y);
+    }
+    
+}
+int main ()
+{
+    enemigo a;
+    int q1=5,w1=5;
+    while(true)
+    {
+        a.mover(q1,w1);
+    }
+    
+
+
+}
