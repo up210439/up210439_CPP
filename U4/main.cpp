@@ -1,9 +1,8 @@
 /*
-cesar eduardo juarez jasso
-evenly liliana delgado rivera 
-maria del carmen viramontes contreras 
+Cesar Eduardo Juarez Jasso
+Maria Del Carmen Viramontes Contreras
+Evenly Liliana Delgado Rivera
 */
-
 #include<iostream>
 #include<windows.h>
 #include<conio.h>
@@ -13,10 +12,10 @@ using namespace std;
 
 void gotoxy(int x, int y){
 HANDLE hcon = GetStdHandle(STD_OUTPUT_HANDLE);
- COORD dwPos;
- dwPos.X = x;
- dwPos.Y = y;
- SetConsoleCursorPosition(hcon, dwPos);
+	COORD dwPos;
+	dwPos.X = x;
+	dwPos.Y = y;
+	SetConsoleCursorPosition(hcon, dwPos);
 }
 
 char ma[22][22] =   {{' ',' ','A',' ','B',' ','C',' ','D',' ','E',' ','F',' ','G',' ','H',' ','I',' ','J',' '},
@@ -41,19 +40,16 @@ char ma[22][22] =   {{' ',' ','A',' ','B',' ','C',' ','D',' ','E',' ','F',' ','G
        {' ','|','-','|','-','|','-','|','-','|','-','|','-','|','-','|','-','|','-','|','-','|'},
        {'9','|',' ','|',' ','|',' ','|',' ','|',' ','|',' ','|',' ','|',' ','|',' ','|',' ','|'},
        {' ',' ','-','-','-','-','-','-','-','-','-','-','-','-','-','-','-','-','-','-','-',' '},};
-
-
 class enemigo{
-
+	
     private:
 
         public:
 
-        void pintarmapa();
-        void pintar(int, int);
-        void borrar(int, int);
-        void mover(int &, int &);
-
+        	void pintarmapa();
+        	void pintar(int, int);
+        	void borrar(int, int);
+        	void mover(int &, int &);
 };
 
 void enemigo::pintarmapa()
@@ -67,46 +63,46 @@ void enemigo::pintarmapa()
         }
     }
 }
-void enemigo::pintar(int &x, int &y)
+
+void enemigo::pintar(int x, int y)
 {
-    gotoxy(x,y)cout<<"O";
+    gotoxy(x,y);cout<<"O";
 }
+
 void enemigo::borrar(int x, int y)
 {
     gotoxy(x,y);cout<<" ";
 }
-void enemigo::mover(int x, int y)
+
+void enemigo::mover(int &x, int &y)
 {
     if (kbhit())
     {
-        enmigo::borrar(x,y);
+        enemigo::borrar(x,y);
         char tecla = getch();
-        if(tecla == 'a') x--;
-        if(tecla == 'd') x++;
-        if(tecla == 'w') y--;
-        if(tecla == 's') y++;
-88
+        if(tecla == 'a' && x>2) x=x-2;
+        if(tecla == 'd' && x<20) x=x+2;
+        if(tecla == 'w' && y>3) y=y-2;
+        if(tecla == 's' && y<21) y=y+2;
         enemigo::pintar(x,y);
-89
+
     }
-90
-    
-        enemigo::pintar(x,y);
-    }
-    
+
 }
+
+
 int main ()
 {
+	
     enemigo a;
-    int q1=5,w1=5;
+    int q1=2,w1=3;
 
     a.pintarmapa();
 
     while(true)
     {
         a.mover(q1,w1);
+        
     }
     
-
-
 }
