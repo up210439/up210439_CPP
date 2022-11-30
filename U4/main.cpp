@@ -49,6 +49,7 @@ class enemigo{
 
         public:
 
+        void pintarmapa();
         void pintar(int, int);
         void borrar(int, int);
         void mover(int &, int &);
@@ -59,6 +60,7 @@ void enemigo::pintarmapa()
 {
     for(int i=0;i<22;i++)
     {
+        cout<<endl;
         for(int j=0;j<22;j++)
         {
           cout<<ma[i][j];  
@@ -83,6 +85,12 @@ void enemigo::mover(int x, int y)
         if(tecla == 'd') x++;
         if(tecla == 'w') y--;
         if(tecla == 's') y++;
+88
+        enemigo::pintar(x,y);
+89
+    }
+90
+    
         enemigo::pintar(x,y);
     }
     
@@ -91,6 +99,9 @@ int main ()
 {
     enemigo a;
     int q1=5,w1=5;
+
+    a.pintarmapa();
+
     while(true)
     {
         a.mover(q1,w1);
