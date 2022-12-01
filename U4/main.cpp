@@ -40,6 +40,24 @@ char ma[22][22] =   {{' ',' ','A',' ','B',' ','C',' ','D',' ','E',' ','F',' ','G
        {' ','|','-','|','-','|','-','|','-','|','-','|','-','|','-','|','-','|','-','|','-','|'},
        {'9','|',' ','|',' ','|',' ','|',' ','|',' ','|',' ','|',' ','|',' ','|',' ','|',' ','|'},
        {' ',' ','-','-','-','-','-','-','-','-','-','-','-','-','-','-','-','-','-','-','-',' '},};
+       
+//Estructuras
+
+struct coord{
+	int x, y;
+	
+};
+
+struct pieza{
+	
+	coord ori;
+	coord peri[3];
+	
+	char D;
+};
+
+
+
 class enemigo{
 	
     private:
@@ -85,8 +103,27 @@ void enemigo::mover(int &x, int &y)
         if(tecla == 'w' && y>3) y=y-2;
         if(tecla == 's' && y<21) y=y+2;
         enemigo::pintar(x,y);
-
     }
+
+}
+
+class jugador{
+	
+	public:
+		
+		void pintar(pieza &);
+
+};
+
+void jugador::pintar(pieza &P)
+{
+	gotoxy(P.ori.x,P.ori.y);cout<<P.D;
+	
+	for(int i=0; i<3; i++)
+	{
+	gotoxy(P.ori.x + P.peri[i].x,P.ori.y + P.peri[i].y);cout<<P.D;	
+	}
+	
 
 }
 
@@ -95,14 +132,18 @@ int main ()
 {
 	
     enemigo a;
-    int q1=2,w1=3;
+    jugador b;
+    pieza c={ {2,28}, {{2,0},{4,0},{6,0}}, 'P'};
+	
+	int q1=2,w1=3;
+    int q2=2,w2=28;
 
-    a.pintarmapa();
-
-    while(true)
-    {
-        a.mover(q1,w1);
-        
-    }
+	b.pintar(c);
+    //a.pintarmapa();
+    //gotoxy(0,25);
+    //a.pintarmapa();
+    
+ 
+    
     
 }
