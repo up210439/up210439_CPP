@@ -45,19 +45,38 @@ char ma[22][22] =   {{' ',' ','A',' ','B',' ','C',' ','D',' ','E',' ','F',' ','G
 
 struct coord{
 	int x, y;
-	
 };
 
 struct pieza{
 	
 	coord ori;
+	
 	coord peri[3];
 	
 	char D;
+	
+	coord posicion(int n);
+	
 };
 
+coord pieza::posicion(int n)
+{
+	coord ret = {ori.x,ori.y};
+	if(n !=0)
+	{
+		ret.x += peri[n-1].x;
+		ret.y += peri[n-1].y;
+	}
+	return ret;
+}
 
 
+coord peris[4][3] = {{{2,0},{4,0},{6,0}},
+					{{2,0},{4,0},{  }},
+					{{2,0},{4,0},{  }},
+					{{   },{   },{  }},};
+
+char barcos[4] = {'P', 'S', 'D', 'F'};
 class enemigo{
 	
     private:
@@ -112,38 +131,78 @@ class jugador{
 	public:
 		
 		void pintar(pieza &);
+		void rotar(pieza &);
+		coord rotar(coord &);
+		void seleccinar(pieza &, int);
 
 };
 
 void jugador::pintar(pieza &P)
-{
-	gotoxy(P.ori.x,P.ori.y);cout<<P.D;
-	
-	for(int i=0; i<3; i++)
+{	
+	for(int i=0; i<4; i++)
 	{
-	gotoxy(P.ori.x + P.peri[i].x,P.ori.y + P.peri[i].y);cout<<P.D;	
+		coord c = P.posicion(i);
+		ma[c.x][c.y]  = P.D;	
 	}
 	
 
 }
 
 
+coord jugador::rotar(coord &c)
+{
+	coord ret = {c.y,c.x};
+	return ret;
+	
+}
+
+void jugador::rotar(pieza &P)
+{
+	for(int i=0;i<3;i++)
+	{
+		P.peri[i] = jugador::rotar(P.peri[i]);
+	}
+}
+
+void jugador::seleccinar(pieza &P, int r)
+{
+	P.ori.x = 2;
+	P.ori.y = 2;
+	P.D = barcos[r];
+	for(int i = 0; i < 3; i++)
+	{
+		P.peri[i] = peris[r][i];
+	}
+}
+
 int main ()
 {
 	
     enemigo a;
     jugador b;
-    pieza c={ {2,28}, {{2,0},{4,0},{6,0}}, 'P'};
+    
+    
+    pieza S;
+    int r = 2;
+    
+    
+    b.seleccinar(S,r);
+    
+	//a.pintarmapa();
 	
-	int q1=2,w1=3;
-    int q2=2,w2=28;
+	b.rotar(S);
+	b.pintar(S);
+    gotoxy(0,25);
+    a.pintarmapa();
+    
+    
+	//b.rotar(c);
+	
+	//b.pintar(c);
+	
 
-	b.pintar(c);
-    //a.pintarmapa();
-    //gotoxy(0,25);
-    //a.pintarmapa();
     
  
-    
+ 	return 0;   
     
 }
