@@ -6,6 +6,8 @@ Evenly Liliana Delgado Rivera
 #include<iostream>
 #include<windows.h>
 #include<conio.h>
+#include<stdlib.h>
+#include<time.h>
 
 using namespace std;
 
@@ -96,7 +98,8 @@ class jugador{
 		void seleccinar(pieza &, int);
 		void mover(pieza &, int &);
 		bool colision(pieza &);
-
+		int obtenerxy();
+		void selecionamapa(pieza &, int);
 };
 
 void jugador::pasarmapa()
@@ -126,22 +129,14 @@ void jugador::dibujarmapaju()
 
 void jugador::pintar(pieza &P, int r)
 {
-	if(r == 1)
+	
+	for(int i=0; i<4; i++)
 	{
-		for(int i=0; i<4; i++)
-		{
 		coord c = P.posicion(i);
-		ju[c.y][c.x] = P.d;
-		}
-	}
-	else
-	{
-		for(int i=0; i<4; i++)
-		{
-		coord c = P.posicion(i);
-		ju[c.y][c.x] = P.D;
-		}
-	}
+		if(r == 1)ju[c.y][c.x] = P.d;
+		else ju[c.y][c.x] = P.D;		
+		
+	}	
 }
 
 void jugador::borrar(pieza &P)
@@ -170,8 +165,8 @@ void jugador::rotar(pieza &P)
 
 void jugador::seleccinar(pieza &P, int r)
 {
-	P.ori.x = 2;
-	P.ori.y = 2;
+	P.ori.x = jugador::obtenerxy();
+	P.ori.y = jugador::obtenerxy();
 	P.D = barcos[r];
 	for(int i = 0; i < 3; i++)
 	{
@@ -207,7 +202,7 @@ void jugador::mover(pieza &P, int &r)
 		{
 			jugador::pintar(P,2);
 			r++;
-			jugador::seleccinar(P,r);
+			jugador::selecionamapa(P,r);
 		}
 	}
 }
@@ -227,6 +222,28 @@ bool jugador::colision(pieza &P)
 	
 	return false;
 }
+
+
+int jugador::obtenerxy()
+{
+	while(true)
+	
+	{
+		int x = rand()%19 + 2;
+		if(x%2 == 0) return x; 
+	}	
+}
+
+
+void jugador::selecionamapa(pieza &P, int r)
+{
+	while(true)
+	{
+		jugador::seleccinar(P,r);
+		if(!jugador::colision(P)) break;
+	}	 
+}
+
 
 class enemigo
 {
@@ -255,22 +272,12 @@ void enemigo::dibujarmapaen()
 
 void enemigo::pintar(pieza &P,int r)
 {
-	if(r == 1)
+	for(int i=0; i<4; i++)
 	{
-		for(int i=0; i<4; i++)
-		{
 		coord c = P.posicion(i);
-		en[c.y][c.x] = P.d;
-		}
-	}
-	else
-	{
-		for(int i=0; i<4; i++)
-		{
-		coord c = P.posicion(i);
-		en[c.y][c.x] = P.D;
-		}
-	}
+		if(r == 1)en[c.y][c.x] = P.d;
+		else en[c.y][c.x] = P.D;
+	}	
 }
 
 void enemigo::borrar(pieza &P)
@@ -293,14 +300,38 @@ void enemigo::mover(pieza &P, int &r)
         if(tecla == 'w') P.ori.y -=2;
         if(tecla == 's') P.ori.y +=2;
         
-        
+        if(enemigo::colision(P))
+        {
+        	P=copia; 
+		}
         enemigo::borrar(copia);
         enemigo::pintar(P,1);
 	}
 }
+
+bool enemigo::colision(pieza &P)
+{
+	for(int i=0; i<4; i++)
+	{
+		coord c = P.posicion(i);
+		
+		if(c.x < 2 || c.x > 20)return true;
+		
+		if(c.y < 2 || c.y > 20)return true;	
+	
+		//if(ju[c.y][c.x] == 'P' || ju[c.y][c.x] == 'S' || ju[c.y][c.x] == 'D' || ju[c.y][c.x] == 'F')return true;
+	}
+	
+	return false;
+}
+
 int main ()
 
 {
+	
+	//rand()
+	srand(time(NULL));
+	
 	
     jugador a;
     enemigo b;
