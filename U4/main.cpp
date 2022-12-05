@@ -84,11 +84,19 @@ char barcos[4] = {'P', 'S', 'D', 'F'};
 
 char ju[22][22];
 char en[22][22];
+char en2[22][22];
 
 class jugador{
 	
+	private:
+		int turno = 0;
+		int turno1; 
+		int ganju = 0, ganen = 0; 
+		
 	public:
 		
+		int reganju(){return ganju;}
+		int reganen(){return ganen;}
 		void pasarmapa();
 		void dibujarmapaju();
 		void pintar(pieza &, int);
@@ -97,9 +105,14 @@ class jugador{
 		coord rotar(coord &);
 		void seleccinar(pieza &, int);
 		void mover(pieza &, int &);
-		bool colision(pieza &);
+		bool colision(pieza &, int);
 		int obtenerxy();
-		void selecionamapa(pieza &, int);
+		void selecionamapa(pieza &, int, int);
+		void disparo(pieza &, int);
+		int verificar(pieza &);
+		void IAgeneral(pieza &, int &, int);
+		void cambioturno(pieza &, int &, int);
+		
 };
 
 void jugador::pasarmapa()
@@ -111,6 +124,7 @@ void jugador::pasarmapa()
         {
           ju[i][j] = ma[i][j];  
           en[i][j] = ma[i][j];
+          en2[i][j] = ma[i][j];
         }
     }
 }
@@ -190,7 +204,7 @@ void jugador::mover(pieza &P, int &r)
         	jugador::rotar(P);
 		}
         
-        if(jugador::colision(P))
+        if(jugador::colision(P,1))
         {
         	P = copia;
 		}
@@ -202,12 +216,12 @@ void jugador::mover(pieza &P, int &r)
 		{
 			jugador::pintar(P,2);
 			r++;
-			jugador::selecionamapa(P,r);
+			jugador::selecionamapa(P,r,1);
 		}
 	}
 }
 
-bool jugador::colision(pieza &P)
+bool jugador::colision(pieza &P, int q)
 {
 	for(int i=0; i<4; i++)
 	{
@@ -216,8 +230,15 @@ bool jugador::colision(pieza &P)
 		if(c.x < 2 || c.x > 20)return true;
 		
 		if(c.y < 2 || c.y > 20)return true;	
-	
-		if(ju[c.y][c.x] == 'P' || ju[c.y][c.x] == 'S' || ju[c.y][c.x] == 'D' || ju[c.y][c.x] == 'F')return true;
+		
+		if(q == 1)
+		{
+			if(ju[c.y][c.x] == 'P' || ju[c.y][c.x] == 'S' || ju[c.y][c.x] == 'D' || ju[c.y][c.x] == 'F') return true;
+		}
+		if(q == 2)
+		{
+			if(ju[c.y][c.x] == 'X' || ju[c.y][c.x] == 'O') return true;
+		}	
 	}
 	
 	return false;
@@ -235,25 +256,114 @@ int jugador::obtenerxy()
 }
 
 
-void jugador::selecionamapa(pieza &P, int r)
+void jugador::selecionamapa(pieza &P, int r, int q)
 {
 	while(true)
 	{
 		jugador::seleccinar(P,r);
-		if(!jugador::colision(P)) break;
+		if(!jugador::colision(P,q)) break;
 	}	 
 }
 
 
-class enemigo
+void jugador::disparo(pieza &P, int q)
+{
+	for(int i = 0; i<4;i++)
+	{
+		coord c = P.posicion(i);
+		
+		if(q == 1)
+		{
+			if(en2[c.y][c.x] == 'P' || en2[c.y][c.x] == 'S' ||en2[c.y][c.x] == 'D' ||en2[c.y][c.x] == 'F') 
+			{
+				en[c.y][c.x] = 'O';	
+				ganju ++;
+			}
+			if(en2[c.y][c.x] == ' ') en[c.y][c.x] = 'X';
+		}
+		if(q == 2)
+		{
+			if(ju[c.y][c.x] == 'P' || ju[c.y][c.x] == 'S' || ju[c.y][c.x] == 'D' || ju[c.y][c.x] == 'F') 
+			{
+				if(ju[c.y][c.x] == 'P') P.D = 'P';
+				if(ju[c.y][c.x] == 'S') P.D = 'S';
+				if(ju[c.y][c.x] == 'D') P.D = 'D';
+				ju[c.y][c.x] = 'O';
+				turno = 1; 
+				ganen ++;
+			}
+			if(ju[c.y][c.x] == ' ') ju[c.y][c.x] = 'X';
+		}
+	}
+}
+
+
+int jugador::verificar(pieza &P)
+{
+	for(int i=2;i<21;i++)
+    {
+        
+        for(int j=2;j<21;j++)
+        {
+          if(ju[i][j] == P.D)
+          {
+          	P.ori.x = j;
+          	P.ori.y = i; 
+          	return 1; 
+		  }
+        }
+    }
+    return 2;
+}
+
+
+void jugador::cambioturno(pieza &P, int &t, int r)
+{
+	jugador::selecionamapa(P,r,2);
+	jugador::disparo(P,2);
+	t = 1; 
+}
+
+
+void jugador::IAgeneral(pieza &P, int &t, int r)
+{
+	if(turno1 == 0) turno = 0;
+	if(turno1 == 1) turno = 1;
+	
+	if(turno = 0)
+	{
+		jugador::cambioturno(P,t,r);	
+	}
+	if(turno = 1)
+	{
+		if(jugador::verificar(P) == 1)
+		{
+			jugador::disparo(P,2);
+			t = 1; 
+		}
+		
+		if(jugador::verificar(P) == 2)
+		{
+			jugador::cambioturno(P,t,r);
+			turno1 = 0; 
+		}
+	}
+}
+	
+
+
+class enemigo: public jugador 
 {
 	public:
+		
 		void dibujarmapaen();
 		void pintar(pieza &, int);
 		void borrar(pieza &);
-		void seleccinar(pieza &, int);
-		void mover(pieza &, int &);
-		bool colision(pieza &);
+		void mover(pieza &, int &, int &);
+		bool colision(pieza &, int);
+		void selecionamapa(pieza &, int);
+		void inicializarbarcos(pieza &);
+		int obtenerrot();
 		
 };
 
@@ -276,7 +386,7 @@ void enemigo::pintar(pieza &P,int r)
 	{
 		coord c = P.posicion(i);
 		if(r == 1)en[c.y][c.x] = P.d;
-		else en[c.y][c.x] = P.D;
+		else en2[c.y][c.x] = P.D;
 	}	
 }
 
@@ -289,7 +399,7 @@ void enemigo::borrar(pieza &P)
 	}
 }
 
-void enemigo::mover(pieza &P, int &r)
+void enemigo::mover(pieza &P, int &r, int &t)
 {
 	if (kbhit())
     {
@@ -300,30 +410,82 @@ void enemigo::mover(pieza &P, int &r)
         if(tecla == 'w') P.ori.y -=2;
         if(tecla == 's') P.ori.y +=2;
         
-        if(enemigo::colision(P))
+        if(enemigo::colision(P,2))
         {
         	P=copia; 
 		}
         enemigo::borrar(copia);
         enemigo::pintar(P,1);
+        
+        if(tecla == 'z')//DISPARO
+        {
+        	enemigo::disparo(P,1);
+        	enemigo::selecionamapa(P,r);
+        	t = 2;
+        	copia = P; 
+		}
 	}
 }
 
-bool enemigo::colision(pieza &P)
+
+bool enemigo::colision(pieza &P, int q)
 {
-	for(int i=0; i<4; i++)
+	for(int i=0; i<5; i++)
 	{
 		coord c = P.posicion(i);
 		
 		if(c.x < 2 || c.x > 20)return true;
 		
 		if(c.y < 2 || c.y > 20)return true;	
-	
-		//if(ju[c.y][c.x] == 'P' || ju[c.y][c.x] == 'S' || ju[c.y][c.x] == 'D' || ju[c.y][c.x] == 'F')return true;
+		if(q == 1)
+		{
+			if(en2[c.y][c.x] == 'P' || en2[c.y][c.x] == 'S' || en2[c.y][c.x] == 'D' || en2[c.y][c.x] == 'F')return true;
+		}
+		if(q == 2)
+		{
+			if(en[c.y][c.x] == 'X' || en[c.y][c.x] == 'O') return true;
+		}
 	}
 	
 	return false;
 }
+
+
+
+
+void enemigo::selecionamapa(pieza &P, int r)
+{
+	while(true)
+	{
+		enemigo::seleccinar(P,r);
+		if(!enemigo::colision(P,2)) break;
+	}	 
+}
+
+
+void enemigo::inicializarbarcos(pieza &P)
+{
+	for(int i = 0; i<4;i++)
+	{
+		while(true)
+		{
+			enemigo::seleccinar(P,i);
+			if(enemigo::obtenerrot() == 0) enemigo::rotar(P);
+			if(!enemigo::colision(P,1))
+			{
+				enemigo::pintar(P,2);
+				break;	
+			}
+		}
+	}
+}
+
+int enemigo::obtenerrot()
+{
+	int x = rand()%2;
+	return x;
+}
+
 
 int main ()
 
@@ -336,7 +498,7 @@ int main ()
     jugador a;
     enemigo b;
     
-    pieza S;
+    pieza S, S1;
     int r = 0;
     int t=0;
     
@@ -355,10 +517,13 @@ int main ()
 		}
 		if(t == 1)
 		{
-			b.mover(S,r);
+			b.mover(S1,r,t);
 		}
 	}
-	
+	if(t == 2)
+	{
+		a.IAgeneral(S,t,r);
+	}
  
  
  	return 0;   
