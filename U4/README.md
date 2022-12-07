@@ -1,9 +1,13 @@
+<div align ="center">  
 
 ```c++
-█▄▄ ▄▀█ ▀█▀ ▀█▀ █░░ █▀▀   █▀ █░█ █ █▀█
-█▄█ █▀█ ░█░ ░█░ █▄▄ ██▄   ▄█ █▀█ █ █▀▀ 
+
+ █▄▄ ▄▀█ ▀█▀ ▀█▀ █░░ █▀▀   █▀ █░█ █ █▀█
+  █▄█ █▀█ ░█░ ░█░ █▄▄ ██▄   ▄█ █▀█ █ █▀▀ 
+
 ```    
 
+</div>
 <div align ="center">
 <img alt="c++" height="300" src="../imagenes/6uwO.gif"/>
 </div>   
@@ -54,6 +58,14 @@ _Objective of the game_  &#9728;
 [RETURN TO INDEX](#index)  }
 
 # CODE EXECUTION  
+<img alt="age0" height="150" src="../imagenes/BATALLA.PNG"/>
+
+
+
+
+
+
+
 <br /><br /><br />   
 
 [RETURN TO INDEX](#index)  
