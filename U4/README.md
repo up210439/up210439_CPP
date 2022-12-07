@@ -1,6 +1,5 @@
 
 ```c++
-
 █▄▄ ▄▀█ ▀█▀ ▀█▀ █░░ █▀▀   █▀ █░█ █ █▀█
 █▄█ █▀█ ░█░ ░█░ █▄▄ ██▄   ▄█ █▀█ █ █▀▀ 
 ```    
@@ -15,7 +14,7 @@
 # INDEX
 </div>  
 
- 1. [CODE BATTLE SHIP]()
+ 1. [CODE BATTLE SHIP](main.cpp)
  2. [INSTRUCTIONS](#introductions)  
    2.1 [HOW TO PLAY (WINDOWS)](#how-to-play-windows)    
 3. [FLOWCHART](#flowchart)
@@ -25,18 +24,42 @@
 <br /><br /><br />  
 
 # INTRODUCTIONS  
-[RETURN TO INDEX](#index)  
 
 # HOW TO PLAY (WINDOWS)  
+1. Download the DEV C++ app for Windows  
+  https://sourceforge.net/projects/orwelldevcpp/  
+2. Then download the game code, you can get it from the "CODE BATTLE SHIP" index.  
+3. When entering the code it tells you "Press to start the game", then a menu appears which gives you the options to play against an opponent or against the CP.
+4. May the best man win and have fun  
+ 
+_Objective of the game_   
+1. Sink your opponent's ships, before he finishes yours
+2. Each player has a board (with 10 rows and 10 columns).  
+   _Note: Your board is the "position board" and your opponent's is the "main board."_
+3. Before starting the game, on your board you must spread your ships, you have all the space on your board to place them.  
+4. The game begins when both players have finished placing their ships.
+5. Now it's time to sink your opponent's ships with movements (shots).
+6. The player who sinks all the ships wins and there is no tie here.
+ <br /><br /><br />   
+ 
+  
 [RETURN TO INDEX](#index)  
 
-# FLOWCHART  
+# FLOWCHART   
+<br /><br /><br />   
+
 [RETURN TO INDEX](#index)  }
 
 # CODE EXECUTION  
+<br /><br /><br />   
+
 [RETURN TO INDEX](#index)  
-  
-# CONCLUSION  
+
+# CONCLUSION   
+Finally, the objective of the realization of this game was to put into practice the learning that we obtained in class, such as: the functions and structures of the cycles, for, while, do while, if. We also saw other functions that served to give it a better presentation, color to the board, animations, in the end the frontend and backend code were combined. A flowchart was developed to have a better explanation about the development of the game.
+It was not easy since we had to give him intelligence. 
+<br /><br /><br />  
+
 [RETURN TO INDEX](#index)
 
    
