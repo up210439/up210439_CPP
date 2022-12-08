@@ -59,19 +59,33 @@ _Objective of the game_  &#9728;
 
 # CODE EXECUTION  
 <div align ="center"> 
+ 
+ 
 1). First attempt, game execution.
+ 
+ 
 <img src= "https://github.com/up210439/up210439_CPP/blob/main/imagenes/1.png" height="200" width="200">
 
 2). Enter the enter key to start the game.
-<img src= "bbbbbbbbbbbbbbbbbb" height="100" width="150">
+ 
+ 
+<img src= "https://github.com/up210439/up210439_CPP/blob/main/imagenes/2.png" height="100" width="150">
 
 3). The boards are shown with instructions on how to position the ships, shoot and move.
-<img src= "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb" height="100" width="150">
+ 
+ 
+<img src= "https://github.com/up210439/up210439_CPP/blob/main/imagenes/3.png" height="100" width="150">
 
 4).
-<img src= "bbbbbbbbbbbbbbbbbbbbbbbbbbbb" height="200" width="250">
-<img src= "bbbbbbbbbbbbbbbbbbbbbbbbbb" height="250" width="250">
-<img src= "bbbbbbbbbbbbbbbbbbbbbbbbbbbb" height="250" width="250">
+ 
+ 
+<img src= "https://github.com/up210439/up210439_CPP/blob/main/imagenes/4.png" height="200" width="250">
+ 
+ 5).
+ 
+ 
+<img src= "https://github.com/up210439/up210439_CPP/blob/main/imagenes/5.png" height="250" width="250">
+
 
 </div> 
 
