@@ -1025,7 +1025,7 @@ for(int j=0;j<80;j++){
 	gotoxy(35,31);cout<<"Cesar Eduardo Juarez Jasso ";
     gotoxy(35,32);cout<<"Maria del Carmen Viramontes Contreras ";
     gotoxy(35,33);cout<<"Eveny Liliana Delgado Rivera ";
-	gotoxy(41,25);cout<<"CARGANDO";
+	gotoxy(41,25);cout<<"LOADING";
     for(int i=0;i<40;i++){
             gotoxy(i+25,27);printf("%c",219);
             Sleep(100);
