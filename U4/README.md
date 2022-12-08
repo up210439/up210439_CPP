@@ -76,12 +76,12 @@ _Objective of the game_  &#9728;
  
 <img src= "https://github.com/up210439/up210439_CPP/blob/main/imagenes/3.png" height="100" width="150">
 
-4).
+4). Shows when the machine beat you.
  
  
 <img src= "https://github.com/up210439/up210439_CPP/blob/main/imagenes/4.png" height="200" width="250">
  
- 5).
+ 5). At the end of the game, it shows you how the play ended when you pressed (2/No).
  
  
 <img src= "https://github.com/up210439/up210439_CPP/blob/main/imagenes/5.png" height="250" width="250">
